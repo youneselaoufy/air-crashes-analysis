@@ -138,8 +138,85 @@ def plot_common_aircraft_manufacturers(df):
     plt.close()
 
 
+def plot_top_operators(df):
+    """
+    Plot the top 10 operators (airlines) involved in air crashes.
+
+    Args:
+        df (DataFrame): Cleaned DataFrame containing the air crashes data.
+    
+    Returns:
+        None. Displays the plot and saves it as a PNG file.
+    """
+    # Get the current directory of this script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construct the full path for the output directory
+    output_dir = os.path.join(current_dir, '../reports/figures/')
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Top 10 operators involved in crashes
+    top_operators = df['Operator'].value_counts().head(10)
+    
+    # Plot top operators
+    plt.figure(figsize=(12, 8))
+    sns.barplot(y=top_operators.index, x=top_operators.values, 
+                palette='cubehelix', hue=top_operators.index, dodge=False, legend=False)
+    plt.title('Top 10 Operators Involved in Air Crashes', fontsize=16)
+    plt.xlabel('Number of Crashes', fontsize=14)
+    plt.ylabel('Operator', fontsize=14)
+    plt.grid(True)
+    plt.savefig(os.path.join(output_dir, 'top_operators.png'))
+    plt.close()
+ 
+def plot_severity_and_impact(df):
+    """
+    Analyze and plot the severity and impact of air crashes.
+    - Fatality Rate (%)
+    - Total Fatalities Over Time (Year)
+
+    Args:
+        df (DataFrame): Cleaned DataFrame containing the air crashes data.
+    
+    Returns:
+        None. Displays the plots and saves them as PNG files.
+    """
+    # Get the current directory of this script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construct the full path for the output directory
+    output_dir = os.path.join(current_dir, '../reports/figures/')
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Calculate Fatality Rate
+    df['Fatality Rate (%)'] = (df['Fatalities (air)'] / df['Aboard']) * 100
+    df['Fatality Rate (%)'] = df['Fatality Rate (%)'].fillna(0)
+    
+    # 1. Distribution of Fatality Rate
+    plt.figure(figsize=(12, 8))
+    sns.histplot(df['Fatality Rate (%)'], bins=20, color='red')
+    plt.title('Distribution of Fatality Rate (%) in Air Crashes', fontsize=16)
+    plt.xlabel('Fatality Rate (%)', fontsize=14)
+    plt.ylabel('Number of Crashes', fontsize=14)
+    plt.grid(True)
+    plt.savefig(os.path.join(output_dir, 'fatality_rate_distribution.png'))
+    plt.close()
+    
+    # 2. Total Fatalities Over Time (Year)
+    fatalities_by_year = df.groupby('Year')['Fatalities (air)'].sum()
+    plt.figure(figsize=(14, 7))
+    sns.lineplot(x=fatalities_by_year.index, y=fatalities_by_year.values, marker='o', color='darkred')
+    plt.title('Total Fatalities in Air Crashes Over Time (Year)', fontsize=16)
+    plt.xlabel('Year', fontsize=14)
+    plt.ylabel('Total Fatalities', fontsize=14)
+    plt.grid(True)
+    plt.savefig(os.path.join(output_dir, 'total_fatalities_over_time.png'))
+    plt.close()
+
 if __name__ == "__main__":
     df = pd.read_csv('../data/processed/cleaned_aircrashes.csv')
     plot_crashes_over_time(df)
     plot_crashes_by_location(df)
     plot_common_aircraft_manufacturers(df)
+    plot_top_operators(df)  # <-- New Addition
+    plot_severity_and_impact(df)  # <-- New Addition
