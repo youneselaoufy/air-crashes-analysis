@@ -3,7 +3,9 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+import geopandas as gpd
+import folium
+from folium.plugins import HeatMap
 def plot_crashes_over_time(df):
     """
     Plot the number of air crashes over time (Year, Quarter, and Month).
@@ -213,10 +215,78 @@ def plot_severity_and_impact(df):
     plt.savefig(os.path.join(output_dir, 'total_fatalities_over_time.png'))
     plt.close()
 
+def plot_correlation_heatmap(df):
+    """
+    Plot a Correlation Heatmap to analyze relationships between variables.
+
+    Args:
+        df (DataFrame): Cleaned DataFrame containing the air crashes data.
+    
+    Returns:
+        None. Displays the heatmap and saves it as a PNG file.
+    """
+    # Get the current directory of this script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construct the full path for the output directory
+    output_dir = os.path.join(current_dir, '../reports/figures/')
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Select numerical columns for correlation analysis
+    numerical_cols = ['Year', 'Quarter', 'Month', 'Fatalities (air)', 'Aboard', 'Ground']
+    corr_matrix = df[numerical_cols].corr()
+
+    # Plot Correlation Heatmap
+    plt.figure(figsize=(12, 10))
+    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt=".2f", linewidths=0.5)
+    plt.title('Correlation Heatmap of Air Crashes Data', fontsize=16)
+    plt.savefig(os.path.join(output_dir, 'correlation_heatmap.png'))
+    plt.close()
+
+    
+def plot_trend_analysis(df):
+    """
+    Plot Trend Analysis using Moving Averages to visualize long-term trends.
+
+    Args:
+        df (DataFrame): Cleaned DataFrame containing the air crashes data.
+    
+    Returns:
+        None. Displays the plot and saves it as a PNG file.
+    """
+    # Get the current directory of this script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construct the full path for the output directory
+    output_dir = os.path.join(current_dir, '../reports/figures/')
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Crashes Over Time (Year) with Moving Averages
+    crashes_per_year = df['Year'].value_counts().sort_index()
+    moving_avg_5 = crashes_per_year.rolling(window=5).mean()  # 5-Year Moving Average
+    moving_avg_10 = crashes_per_year.rolling(window=10).mean()  # 10-Year Moving Average
+
+    plt.figure(figsize=(14, 7))
+    sns.lineplot(x=crashes_per_year.index, y=crashes_per_year.values, label='Yearly Crashes', color='blue')
+    sns.lineplot(x=moving_avg_5.index, y=moving_avg_5.values, label='5-Year Moving Average', color='green')
+    sns.lineplot(x=moving_avg_10.index, y=moving_avg_10.values, label='10-Year Moving Average', color='red')
+    plt.title('Air Crashes Over Time with Moving Averages', fontsize=16)
+    plt.xlabel('Year', fontsize=14)
+    plt.ylabel('Number of Crashes', fontsize=14)
+    plt.legend()
+    plt.grid(True)
+    plt.savefig(os.path.join(output_dir, 'trend_analysis.png'))
+    plt.close()
+
+
 if __name__ == "__main__":
     df = pd.read_csv('../data/processed/cleaned_aircrashes.csv')
     plot_crashes_over_time(df)
     plot_crashes_by_location(df)
     plot_common_aircraft_manufacturers(df)
-    plot_top_operators(df)  # <-- New Addition
-    plot_severity_and_impact(df)  # <-- New Addition
+    plot_top_operators(df)
+    plot_severity_and_impact(df)
+    plot_geographical_distribution(df)
+    plot_common_aircraft_models(df)
+    plot_correlation_heatmap(df)  # <-- New Addition
+    plot_trend_analysis(df)  # <-- New Addition
