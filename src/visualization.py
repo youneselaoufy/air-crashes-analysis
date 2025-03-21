@@ -278,6 +278,95 @@ def plot_trend_analysis(df):
     plt.savefig(os.path.join(output_dir, 'trend_analysis.png'))
     plt.close()
 
+def plot_geographical_distribution(df):
+    """
+    Visualize the geographical distribution of air crashes.
+    - Interactive Heatmap of crashes by Latitude and Longitude.
+
+    Args:
+        df (DataFrame): Cleaned DataFrame containing the air crashes data.
+    
+    Returns:
+        None. Displays the map and saves it as an HTML file.
+    """
+    # Get the current directory of this script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construct the full path for the output directory
+    output_dir = os.path.join(current_dir, '../reports/figures/')
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Check if Latitude and Longitude columns exist
+    if 'Latitude' in df.columns and 'Longitude' in df.columns:
+        # Filter out rows with NaN values in Latitude and Longitude
+        geo_data = df[['Latitude', 'Longitude']].dropna()
+
+        # Convert to float for mapping
+        geo_data['Latitude'] = geo_data['Latitude'].astype(float)
+        geo_data['Longitude'] = geo_data['Longitude'].astype(float)
+
+        # Create a Folium map centered on the global average location
+        m = folium.Map(location=[geo_data['Latitude'].mean(), geo_data['Longitude'].mean()], 
+                       zoom_start=2, tiles='CartoDB positron')
+
+        # Add HeatMap
+        heat_data = [[row['Latitude'], row['Longitude']] for index, row in geo_data.iterrows()]
+        HeatMap(heat_data, radius=8, max_zoom=10).add_to(m)
+
+        # Save map as HTML
+        map_output_path = os.path.join(output_dir, 'geographical_distribution.html')
+        m.save(map_output_path)
+
+        print(f"Geographical Distribution Map saved at: {map_output_path}")
+    else:
+        print("Warning: 'Latitude' and 'Longitude' columns are required for Geographical Analysis.")
+
+
+def plot_common_aircraft_models(df):
+    """
+    Plot the most common aircraft models involved in air crashes.
+    - Top 10 Aircraft Models
+    - Fatality Rate by Aircraft Model
+
+    Args:
+        df (DataFrame): Cleaned DataFrame containing the air crashes data.
+    
+    Returns:
+        None. Displays the plots and saves them as PNG files.
+    """
+    # Get the current directory of this script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construct the full path for the output directory
+    output_dir = os.path.join(current_dir, '../reports/figures/')
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Top 10 Aircraft Models
+    top_models = df['Aircraft'].value_counts().head(10)
+    plt.figure(figsize=(12, 8))
+    sns.barplot(y=top_models.index, x=top_models.values, 
+                palette='viridis', hue=top_models.index, dodge=False, legend=False)
+    plt.title('Top 10 Aircraft Models Involved in Air Crashes', fontsize=16)
+    plt.xlabel('Number of Crashes', fontsize=14)
+    plt.ylabel('Aircraft Model', fontsize=14)
+    plt.grid(True)
+    plt.savefig(os.path.join(output_dir, 'common_aircraft_models.png'))
+    plt.close()
+
+    # Fatality Rate by Aircraft Model
+    fatality_rate_model = df.groupby('Aircraft').apply(
+        lambda x: (x['Fatalities (air)'].sum() / x['Aboard'].sum()) * 100).sort_values(ascending=False).head(10)
+    
+    plt.figure(figsize=(12, 8))
+    sns.barplot(y=fatality_rate_model.index, x=fatality_rate_model.values, 
+                palette='magma', hue=fatality_rate_model.index, dodge=False, legend=False)
+    plt.title('Fatality Rate (%) by Aircraft Model', fontsize=16)
+    plt.xlabel('Fatality Rate (%)', fontsize=14)
+    plt.ylabel('Aircraft Model', fontsize=14)
+    plt.grid(True)
+    plt.savefig(os.path.join(output_dir, 'fatality_rate_by_model.png'))
+    plt.close()
+
 
 if __name__ == "__main__":
     df = pd.read_csv('../data/processed/cleaned_aircrashes.csv')
@@ -288,5 +377,5 @@ if __name__ == "__main__":
     plot_severity_and_impact(df)
     plot_geographical_distribution(df)
     plot_common_aircraft_models(df)
-    plot_correlation_heatmap(df)  # <-- New Addition
-    plot_trend_analysis(df)  # <-- New Addition
+    plot_correlation_heatmap(df)  
+    plot_trend_analysis(df) 
