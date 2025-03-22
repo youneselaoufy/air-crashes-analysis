@@ -18,6 +18,7 @@ This project analyzes global air crashes from **1908-2023** using **Python**. Th
  src/
    ├── data_cleaning.py (cleans dataset)
    ├── visualization.py (generates plots)
+     ------------------ (some other extra scripts for improving data by adding the coordinations)
  notebooks/
    ├── project.ipynb (detailed EDA & insights)
  reports/
@@ -31,6 +32,7 @@ This project analyzes global air crashes from **1908-2023** using **Python**. Th
 - Saved cleaned dataset: `data/processed/cleaned_aircrashes.csv`
 
 ##  Visualizations & Insights
+### You can see the reports in the reports/figures 
 
 | Chart                        | Insight                                                         |
 | ---------------------------- | --------------------------------------------------------------- |
@@ -40,7 +42,7 @@ This project analyzes global air crashes from **1908-2023** using **Python**. Th
 |  Correlation Heatmap       | Fatalities strongly correlate with number of passengers onboard |
 |  Severity & Impact         | Major crashes are often linked to larger aircraft               |
 
-> ** Screenshots of visualizations should be added here**
+> u can see the reports in the reports/figures 
 
 ##  How to Run the Project
 
@@ -68,13 +70,6 @@ python src/data_cleaning.py
 python src/visualization.py
 ```
 
-##  Next Steps
 
-✔ **Build an Interactive Map using Folium** \
-✔ **Develop a Power BI Dashboard** \
-✔ **Perform Advanced Statistical Analysis** 
-
----
-
-💪 Feel free to contribute or suggest improvements!
+###feel free to contribute in my project or suggest any improvements
 
