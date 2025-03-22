@@ -6,23 +6,23 @@ import time
 import shutil
 import atexit
 import re
+import sys
 
-
-"""
-you can skip this 2 fonctions coming it s just for solving a problem I had with fetching the data from the API,
+""" /////////// in comment after finishing the cleaning process and switching to the notebook /////////////
+you can skip this 2 fonction coming it s just for solving a problem I had with fetching the data from the API,
 I had to use the geopy library to get the latitude and longitude of the locations in the dataset , 
 so while fetching row by row i had a problem with the API rate limits so i had to use a cache file to save the data,
 also a problem with the interruption of the fetching process so I had to use a lock file to prevent multiple instances from running
 
 """
-
+"""
 lock_file = "data_cleaning.lock"
 
 def check_running_instance():
-    """
-    Checks if another instance of the script is already running.
-    If a lock file exists, it prevents multiple instances from running.
-    """
+    
+    #Checks if another instance of the script is already running.
+    #If a lock file exists, it prevents multiple instances from running.
+    
     if os.path.exists(lock_file):
         print("Another instance of the script is already running. Exiting...")
         exit(1)
@@ -31,10 +31,13 @@ def check_running_instance():
     with open(lock_file, "w") as f:
         f.write("running")
 
+
+
+
 def remove_lock_file():
-    """
-    Removes the lock file when the script finishes or is interrupted.
-    """
+    
+    #Removes the lock file when the script finishes or is interrupted.
+    
     if os.path.exists(lock_file):
         os.remove(lock_file)
 
@@ -44,7 +47,7 @@ check_running_instance()
 # Ensure lock file is removed when script ends
 atexit.register(remove_lock_file)
 
-
+"""
 
 def load_data(file_name):
     """
@@ -114,10 +117,11 @@ def clean_data(df):
         print("Warning: Latitude and Longitude columns are missing.")
 
     for col in df.select_dtypes(include=['float64', 'int64']):
-        df[col].fillna(df[col].median(), inplace=True)
+        df[col] = df[col].fillna(df[col].median())
 
     for col in df.select_dtypes(include=['object']):
-        df[col].fillna(df[col].mode().iloc[0], inplace=True)
+        df[col] = df[col].fillna(df[col].mode().iloc[0])
+
 
     date_cols = ['Year', 'Month', 'Day']
     for col in date_cols:
@@ -202,8 +206,9 @@ def save_cleaned_data(df, output_file):
     df.to_csv(output_file, index=False, encoding="utf-8")
     print(f"Data saved successfully: {output_file}")
 
-cache_file = "src/geolocation_cachefile.csv"
 
+
+cache_file = os.path.join(os.path.dirname(__file__), "geolocation_cachefile.csv")
 
 
 
@@ -376,7 +381,18 @@ def add_geolocation(df):
     return df
 
 
+def clean_aircrash_data():
+    """
+    Executes the full pipeline: Load → Clean → Geolocation → Save
+    """
+    file_name = 'aircrashesFullDataUpdated_2024.csv'
+    output_file = '../data/processed/cleaned_aircrashes.csv'
 
+    df = load_data(file_name)
+    if df is not None:
+        cleaned_df = clean_data(df)              
+        cleaned_df = add_geolocation(cleaned_df)
+        save_cleaned_data(cleaned_df, output_file)
 
 
 
