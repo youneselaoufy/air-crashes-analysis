@@ -13,10 +13,40 @@ This data-driven project analyzes more than 5,000 air crashes from 1908 to 2023,
 
 Built using Dash, Plotly, Flask, and Pandas, the web app includes:
 
-- Interactive map of crash locations (colored by fatalities)
-- Crashes over time, fatalities by year/quarter/month
-- Top operators and aircraft models involved in crashes.....
-- Fully responsive layout with interactive filters
+
+- The Dash-based web app offers an interactive way to explore air crash data globally. Built with Dash, Plotly, Flask, and Pandas, it includes:
+
+- Interactive Map of Crashes
+Displays crash locations on a world map, colored and sized by number of fatalities. Hover tooltips show crash details.
+
+- Filter Controls
+Users can dynamically filter data by:
+
+Year range (slider)
+
+Operator (multi-select dropdown)
+
+Fatalities range (slider)
+
+- KPI Summary Cards
+Real-time metrics showing:
+
+Total crashes
+
+Total fatalities
+
+Average fatalities per crash
+
+Max fatalities (deadliest crash)
+
+- Yearly Trends Chart
+A line chart showing yearly trends for crashes and fatalities.
+
+- Country-Level Choropleth Map
+Heatmap of crashes aggregated by country.
+
+- Recent Crashes Table
+Displays the most recent 20 crashes with operator, aircraft, location, date, and fatalities.
 
 ![Dash App](reports/web/map.png)
 To run locally:
