@@ -3,9 +3,32 @@
 
 This data-driven project analyzes more than 5,000 air crashes from 1908 to 2023, providing deep insights into aviation accidents. It features:
 
-- A Python-powered Dash web application with an interactive map and dynamic charts  
+  
 - A Power BI dashboard offering clean, professional visual analytics  
+- A Python-powered Dash web application with an interactive map and dynamic charts
 - Robust data cleaning and geolocation enrichment using OpenStreetMap API
+
+---
+
+## Power BI Dashboard
+
+The Power BI version provides a compact executive summary with:
+
+- KPI Cards: Total crashes, total fatalities, average fatalities per crash
+- Charts:  
+  - Crashes over time  
+  - Top operators by fatalities  
+  - Fatalities by country  
+  - Fatalities by decade
+- Interactive slicers for year and operator
+
+![Power BI Dashboard](reports/power_bi/aircrashes_powerbi_dashboard.png)
+
+
+Location of files:
+
+- Dashboard: `reports/power_bi/air_crashes_dashboard.pbix`
+- Preview image: `reports/power_bi/aircrashes_powerbi_dashboard.png`
 
 ---
 
@@ -58,25 +81,6 @@ python app.py
 
 ---
 
-## Power BI Dashboard
-
-The Power BI version provides a compact executive summary with:
-
-- KPI Cards: Total crashes, total fatalities, average fatalities per crash
-- Charts:  
-  - Crashes over time  
-  - Top operators by fatalities  
-  - Fatalities by country  
-  - Fatalities by decade
-- Interactive slicers for year and operator
-
-![Power BI Dashboard](reports/power_bi/aircrashes_powerbi_dashboard.png)
-
-
-Location of files:
-
-- Dashboard: `reports/power_bi/air_crashes_dashboard.pbix`
-- Preview image: `reports/power_bi/aircrashes_powerbi_dashboard.png`
 
 ---
 
