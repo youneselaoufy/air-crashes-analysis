@@ -15,10 +15,10 @@ Built using Dash, Plotly, Flask, and Pandas, the web app includes:
 
 - Interactive map of crash locations (colored by fatalities)
 - Crashes over time, fatalities by year/quarter/month
-- Top operators and aircraft models involved in crashes
-- Correlation heatmap of key variables
+- Top operators and aircraft models involved in crashes.....
 - Fully responsive layout with interactive filters
 
+![Dash App](reports\web\map.png)
 To run locally:
 
 ```bash
@@ -39,6 +39,9 @@ The Power BI version provides a compact executive summary with:
   - Fatalities by country  
   - Fatalities by decade
 - Interactive slicers for year and operator
+
+![Power BI Dashboard](reports/power_bi/aircrashes_powerbi_dashboard.png)
+
 
 Location of files:
 
