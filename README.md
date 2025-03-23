@@ -1,75 +1,136 @@
-#  Air Crashes Analysis (1908-2023)
 
-##  Overview
+# Global Air Crashes Analysis (1908–2023)
 
-This project analyzes global air crashes from **1908-2023** using **Python**. The dataset is cleaned and visualized to uncover trends, most affected airlines, and geographical patterns.
+This data-driven project analyzes more than 5,000 air crashes from 1908 to 2023, providing deep insights into aviation accidents. It features:
 
-##  Dataset
+- A Python-powered Dash web application with an interactive map and dynamic charts  
+- A Power BI dashboard offering clean, professional visual analytics  
+- Robust data cleaning and geolocation enrichment using OpenStreetMap API
 
-- **Source**: [Kaggle Air Crashes Full Data (1908-2023)](https://www.kaggle.com/datasets/jogwums/air-crashes-full-data-1908-2023)
-- **Total Records**: 5,000+ air crashes
+---
 
-## 🛠️ Project Structure
+## Dash Web App
+
+Built using Dash, Plotly, Flask, and Pandas, the web app includes:
+
+- Interactive map of crash locations (colored by fatalities)
+- Crashes over time, fatalities by year/quarter/month
+- Top operators and aircraft models involved in crashes
+- Correlation heatmap of key variables
+- Fully responsive layout with interactive filters
+
+To run locally:
+
+```bash
+cd webapp
+python app.py
+```
+
+---
+
+## Power BI Dashboard
+
+The Power BI version provides a compact executive summary with:
+
+- KPI Cards: Total crashes, total fatalities, average fatalities per crash
+- Charts:  
+  - Crashes over time  
+  - Top operators by fatalities  
+  - Fatalities by country  
+  - Fatalities by decade
+- Interactive slicers for year and operator
+
+Location of files:
+
+- Dashboard: `reports/power_bi/air_crashes_dashboard.pbix`
+- Preview image: `reports/power_bi/aircrashes_powerbi_dashboard.png`
+
+---
+
+## Project Structure
 
 ```
- data/
-   ├── raw/ (original dataset)
-   ├── processed/ (cleaned dataset)
- src/
-   ├── data_cleaning.py (cleans dataset)
-   ├── visualization.py (generates plots)
-     ------------------ (some other extra scripts for improving data by adding the coordinations)
- notebooks/
-   ├── project.ipynb (detailed EDA & insights)
- reports/
-   ├── figures/ (saved charts & maps)
+air-crashes-analysis/
+│
+├── data/
+│   ├── raw/                         
+│   └── processed/                   
+│       └── cleaned_aircrashes_with_geo.csv
+│
+├── notebooks/
+│   └── air_crashes_analysis.ipynb  
+│
+├── reports/
+│   ├── figures/                     
+│   └── power_bi/
+│       ├── air_crashes_dashboard.pbix
+│       └── aircrashes_powerbi_dashboard.png
+│
+├── src/
+│   ├── data_cleaning.py            
+│   ├── geolocation_cachefile.csv   
+│   ├── visualization.py            
+│
+└── webapp/
+    └── app.py                      
 ```
-##  Data Cleaning Steps
 
-- Removed **duplicates & missing values**
-- Converted **dates & locations** to correct formats
-- **Fetched and added precise Latitude & Longitude** for mapping using **OpenStreetMap API (Nominatim)** to enrich the dataset
-- Saved cleaned dataset: `data/processed/cleaned_aircrashes.csv`
+---
 
-##  Visualizations & Insights
-### You can see the reports in the reports/figures 
+## Dataset
 
-| Chart                        | Insight                                                         |
-| ---------------------------- | --------------------------------------------------------------- |
-|  Crashes Over Time         | Air crashes peaked between 1960-1990 and declined after 2000    |
-|  Geographical Distribution | USA & Russia had the most crashes                               |
-|  Top Aircraft Models       | Boeing & Airbus have the highest crash records                  |
-|  Correlation Heatmap       | Fatalities strongly correlate with number of passengers onboard |
-|  Severity & Impact         | Major crashes are often linked to larger aircraft               |
+- Source: [Kaggle Air Crashes Full Data (1908–2023)](https://www.kaggle.com/datasets/jogwums/air-crashes-full-data-1908-2023)
 
-> u can see the reports in the reports/figures 
+---
 
-##  How to Run the Project
+## Key Features
 
-### **1. Clone this repository:**
+- Cleaned over 5,000 records with null handling and formatting
+- Enriched dataset with latitude and longitude via OpenStreetMap API
+- Insightful dashboards in Power BI and Dash
+- Clear storytelling with focus on crashes, impact, and evolution over time
+
+---
+
+## How to Run the Project
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/youneselaoufy/air-crashes-analysis.git
+cd air-crashes-analysis
 ```
 
-### **2. Install dependencies:**
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3. Run the cleaning script:**
+3. Run the cleaning script:
 
 ```bash
 python src/data_cleaning.py
 ```
 
-### **4. Run visualizations:**
+4. Run visualizations:
 
 ```bash
 python src/visualization.py
 ```
 
+5. Launch the Dash web app:
 
-###feel free to contribute in my project or suggest any improvements
+```bash
+cd webapp
+python app.py
+```
 
+---
+
+## Optional Enhancements
+
+- Deploy Dash app on Render or Heroku
+- Link Power BI dashboard to a live SQL backend
+- Add time-based filtering to the interactive map
+- Implement machine learning crash prediction (experimental)
