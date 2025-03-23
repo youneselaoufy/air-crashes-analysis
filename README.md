@@ -18,7 +18,7 @@ Built using Dash, Plotly, Flask, and Pandas, the web app includes:
 - Top operators and aircraft models involved in crashes.....
 - Fully responsive layout with interactive filters
 
-![Dash App](reports\web\map.png)
+![Dash App](reports/web/map.png)
 To run locally:
 
 ```bash
