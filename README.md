@@ -5,7 +5,7 @@ This data-driven project analyzes more than 5,000 air crashes from 1908 to 2023,
 
   
 - A Power BI dashboard offering clean, professional visual analytics  
-- A Python-powered Dash web application with an interactive map and dynamic charts
+- A Python-powered Dash web application with an interactive map and dynamic charts   URL : https://youneselaoufy.com/aircrashes/
 - Robust data cleaning and geolocation enrichment using OpenStreetMap API
 
 ---
