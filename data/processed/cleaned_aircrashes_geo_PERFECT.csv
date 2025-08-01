@@ -1,6 +1,6 @@
 Year,Quarter,Month,Day,Country/Region,Aircraft_Manufacturer,Aircraft,Location,Operator,Ground,Fatalities_air,Aboard,Latitude,Longitude
 1970,Qtr 2,April,28,Russia,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 100VH,Kainatu,Airlines Australia GuineaTrans New,0,8,11,-6.272,145.845
-1952,Qtr 2,April,30,Russia,Douglas,Douglas DC 3VT,Delhi,Airways IndiaDeccan,0,9,9,28.6273928,77.1716954
+1952,Qtr 2,April,30,Russia,Douglas,Douglas DC 3VT,Delhi,Airways IndiaDeccan,0,9,9,51.83581,107.5825412
 1973,Qtr 2,April,10,Russia,Vickers Vanguard,Vickers Vanguard 952G AXOP,Near Basel,(UK) Airlines International SwitzerlandInvicta,0,108,145,47.5596,7.5886
 2000,Qtr 2,April,19,'-,Antonov,Antonov AN 8TL,Pepa  -,Airlines Centrafricain,0,24,24,-7.508,29.29
 1946,Qtr 2,April,30,'-,Douglas,Douglas C 47A FZ559,Pindi-Khut  -,Force Air Royal,0,12,12,33.613,73.058
@@ -84,18 +84,18 @@ Year,Quarter,Month,Day,Country/Region,Aircraft_Manufacturer,Aircraft,Location,Op
 2002,Qtr 2,April,19,Colombia,Antonov,Antonov AN 32AHK,Popayán Colombia,Colombia SELVA,0,3,8,2.4422295,-76.6072368
 2012,Qtr 2,April,30,Colombia,Bell 212FAC,Bell 212FAC 4020,Sabanagrande Colombia,Colombiana Aerea -Fuerza Military,0,13,13,10.80408175,-74.77445095710297
 1998,Qtr 2,April,20,Colombia,Boeing,Boeing B 727,Near Bogota Colombia,France Air,0,53,53,,
-1960,Qtr 2,April,19,Colombia,Curtiss,Curtiss C 46HK,Bogota Colombia,Colombiano Aereo Lloyd,0,37,51,-34.0845443,-151.1512348
+1960,Qtr 2,April,19,Colombia,Curtiss,Curtiss C 46HK,Bogota Colombia,Colombiano Aereo Lloyd,0,37,51,4.662332,-74.0674358
 1960,Qtr 2,April,19,Colombia,Curtiss,Curtiss C 46HK,Bogota Colombia,Colombiano Aereo Lloyd,0,37,51,4.6533816,-74.0836333
 1999,Qtr 2,April,8,Colombia,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 300HK,Near Malaga Colombia,Aerotaca,0,5,5,,
 1986,Qtr 2,April,27,Colombia,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 300HK,Near Saravena Colombia,Colombia ACES,0,13,13,,
-1978,Qtr 2,April,29,Colombia,Douglas,Douglas C 118AHK,Bogota Colombia,Colombia LAC,0,8,12,-34.0845443,-151.1512348
+1978,Qtr 2,April,29,Colombia,Douglas,Douglas C 118AHK,Bogota Colombia,Colombia LAC,0,8,12,4.662332,-74.0674358
 1978,Qtr 2,April,29,Colombia,Douglas,Douglas C 118AHK,Bogota Colombia,Colombia LAC,0,8,12,4.6533816,-74.0836333
 1950,Qtr 2,April,15,Colombia,Douglas,Douglas C 47 (DC,Santa Ana Colombia,Nacionales Aéreas Lineas,0,2,4,9.3229035,-74.5696573
 1962,Qtr 2,April,22,Colombia,Douglas,Douglas C 47A,Serrania del Baudo Colombia,AVISPA,0,40,40,,
 1962,Qtr 2,April,6,Colombia,Douglas,Douglas C 47FAC,Near Villavicencio Colombia,Force Air Colombian - Military,0,31,31,,
 1977,Qtr 2,April,10,Colombia,Douglas,Douglas DC 3,SW of Bogota Colombia,Venado El,0,35,35,,
 1976,Qtr 2,April,2,Colombia,Douglas,Douglas DC 3FAC,Near Puerto Asis Colombia,Satena,0,5,16,,
-1951,Qtr 2,April,2,Colombia,Douglas,Douglas DC 3HK,Bogota Colombia,Avianca,0,26,26,-34.0845443,-151.1512348
+1951,Qtr 2,April,2,Colombia,Douglas,Douglas DC 3HK,Bogota Colombia,Avianca,0,26,26,4.662332,-74.0674358
 1951,Qtr 2,April,2,Colombia,Douglas,Douglas DC 3HK,Bogota Colombia,Avianca,0,26,26,4.6533816,-74.0836333
 1967,Qtr 2,April,26,Colombia,Douglas,Douglas DC 3HK,Near Sogamosa Colombia,Avianca,0,17,18,,
 1989,Qtr 2,April,19,Colombia,Pilatus,Pilatus PC 6 Turbo PorterFAC,Near Cucuta Colombia,Satena,0,11,11,,
@@ -268,7 +268,7 @@ Swallow?",King Hill Idaho,Lines Air Varney,0,1,1,44.5204431,116.3345874
 1956,Qtr 2,April,1,Pennsylvania,Martin,Martin 404N40403,Pittsburgh Pennsylvania,Airlines World Trans,0,22,36,40.3693889,80.6243098
 1991,Qtr 2,April,4,Pennsylvania,Piper Aerostar 601 / Bell 412SPN3645D /,Piper Aerostar 601 / Bell 412SPN3645D / N78S,Marion Pennsylvania,Private,2,5,5,39.8573144,77.6952703
 1972,Qtr 2,April,20,Peru,Douglas,Douglas C 47DOB,Near Moyobamba Peru,SATCO,0,6,6,41.0799898,-85.1386015
-2005,Qtr 2,April,28,Peru,Let,Let 410UVPEP 830,Pisco Peru,Peru Del Fuerza - Military,0,13,13,-33.551317,-70.67303909057628
+2005,Qtr 2,April,28,Peru,Let,Let 410UVPEP 830,Pisco Peru,Peru Del Fuerza - Military,0,13,13,-13.7140636,-76.1539399
 1967,Qtr 2,April,2,Peru,Lockheed 18,Lockheed 18 LodestarN706G,Off Lima Peru,Airlines Caribbean,0,5,5,41.5850394,-85.8344491
 1966,Qtr 2,April,27,Peru,Lockheed 749A,Lockheed 749A ConstellationOB R,Tomas Peru,LANSA,0,49,49,-12.2383101,-75.7460249
 2010,Qtr 2,April,21,Philippines,Antonov,Antonov An 12BPUP,Pampanga Philippines,Airlines Interisland,0,3,6,15.0519635,120.6445398
@@ -392,7 +392,7 @@ NC282",Federal Wyoming,Transport Air Boeing,0,1,2,38.889820150000006,77.04024448
 1943,Qtr 3,August,7,Australia,Douglas,Douglas C 47,Off Townsville Australia,Force Air U.S. - Military,0,27,27,,
 1940,Qtr 3,August,13,Australia,Lockheed Hudson,Lockheed Hudson A16 97?,Near Canberra Australia,Force Air Australian Royal - Military,0,10,10,54.659849050000005,5.788615653741947
 1941,Qtr 3,August,27,Australila,de Havilland DH.80 Puss,de Havilland DH.80 Puss MothVH UQL,Coen Australila,Australia of Airlines,0,3,3,59.9133301,10.7389701
-1973,Qtr 3,August,18,Azerbaijan,Antonov,Antonov AN 24VCCCP,Baku Azerbaijan,USSRAeroflot,0,56,64,70.6369444,160.038333
+1973,Qtr 3,August,18,Azerbaijan,Antonov,Antonov AN 24VCCCP,Baku Azerbaijan,USSRAeroflot,0,56,64,40.3698533,49.8346715
 1973,Qtr 3,August,18,Azerbaijan,Antonov,Antonov AN 24VCCCP,Baku Azerbaijan,USSRAeroflot,0,56,64,40.3755885,49.8328009
 1973,Qtr 3,August,18,Azerbaijan,Antonov,Antonov AN 24VCCCP,Baku Azerbaijan,USSRAeroflot,0,56,64,40.4093,49.8671
 1990,Qtr 3,August,1,Azerbaijan,Yakovlev,Yakovlev YAK 40CCCP,Stepanakert Azerbaijan,USSRAeroflot,0,47,47,39.8259355,46.749553107224
@@ -418,13 +418,13 @@ NC282",Federal Wyoming,Transport Air Boeing,0,1,2,38.889820150000006,77.04024448
 2007,Qtr 3,August,22,Brazil,Embraer,Embraer EMB 110P1 BandeirantPT,Near Curitiba Brazil,Aero Taxi Two,0,2,2,39.900937,-79.725931
 2002,Qtr 3,August,30,Brazil,Embraer 120ER,Embraer 120ER BrasiliaPT WRQ,Rio Branco Brazil,Aéreo Taxi Rico,0,23,31,-9.9765362,-67.8220778
 1938,Qtr 3,August,15,Brazil,Junkers,Junkers JU 52/3mPP,Guanabara Brazil,Condor Syndicato,0,9,9,-22.888889,-47.065556
-1943,Qtr 3,August,27,Brazil,Junkers,Junkers JU 52/3mPP,Rio de Janeiro Brazil,VASP,0,18,21,24.3753438,-4.3208436
+1943,Qtr 3,August,27,Brazil,Junkers,Junkers JU 52/3mPP,Rio de Janeiro Brazil,VASP,0,18,21,-22.9055144,-43.0977136
 1943,Qtr 3,August,27,Brazil,Junkers,Junkers JU 52/3mPP,Rio de Janeiro Brazil,VASP,0,18,21,-22.9110137,-43.2093727
 1943,Qtr 3,August,27,Brazil,Junkers,Junkers JU 52/3mPP,Rio de Janeiro Brazil,VASP,0,18,21,-22.9068,-43.1729
 1934,Qtr 3,August,5,Brazil,Latecoere,Latecoere 26F AILK,Bahia Brazil,France Air,0,2,2,-12.285251,-41.9294776
 1941,Qtr 3,August,18,Brazil,Lockheed 18,Lockheed 18 LodeStarPP PBD,Near Sao Paulo Brazil,Brasil do Panair,0,8,14,40.3693889,-80.6243098
 1944,Qtr 3,August,30,Brazil,Lockheed 18,Lockheed 18 LodestarPP PBI,Sao Paulo Brazil,Brasil do Panair,0,18,18,-23.5506507,-46.6333824
-1962,Qtr 3,August,20,Brazil,McDonnell Douglas,McDonnell Douglas DC 8,Rio de Janeiro Brazil,Brazil do Panair,0,15,105,24.3753438,-4.3208436
+1962,Qtr 3,August,20,Brazil,McDonnell Douglas,McDonnell Douglas DC 8,Rio de Janeiro Brazil,Brazil do Panair,0,15,105,-22.9055144,-43.0977136
 1962,Qtr 3,August,20,Brazil,McDonnell Douglas,McDonnell Douglas DC 8,Rio de Janeiro Brazil,Brazil do Panair,0,15,105,-22.9110137,-43.2093727
 1962,Qtr 3,August,20,Brazil,McDonnell Douglas,McDonnell Douglas DC 8,Rio de Janeiro Brazil,Brazil do Panair,0,15,105,-22.9068,-43.1729
 2000,Qtr 3,August,2,Brazil,Sikorsky,Sikorsky S 76PT,Cubatao Brazil,Taxi Air Lider - taxi Air,0,6,6,-23.8857982,-46.4241869
@@ -471,9 +471,9 @@ NC282",Federal Wyoming,Transport Air Boeing,0,1,2,38.889820150000006,77.04024448
 1973,Qtr 3,August,22,Colombia,Douglas,Douglas DC 3HK,El Yopal Colombia,Avianca,0,16,17,5.3356662,-72.3936931
 1995,Qtr 3,August,14,Colombia,Embraer 110P1,Embraer 110P1 BandeiranteHK 2594,Nevada del Huila Colombia,Colombia AIRES,0,10,10,55.448217,-50.4763591
 1936,Qtr 3,August,6,Colombia,Junkers,Junkers F 13C,Choco Colombia,SCADTA,0,2,3,6.0000085,-77.0000086
-1973,Qtr 3,August,27,Colombia,Lockheed,Lockheed L 188A ElectraHK,Bogota Colombia,Colombia Aerocondor,0,42,42,-34.0845443,-151.1512348
+1973,Qtr 3,August,27,Colombia,Lockheed,Lockheed L 188A ElectraHK,Bogota Colombia,Colombia Aerocondor,0,42,42,4.662332,-74.0674358
 1973,Qtr 3,August,27,Colombia,Lockheed,Lockheed L 188A ElectraHK,Bogota Colombia,Colombia Aerocondor,0,42,42,4.6533816,-74.0836333
-1981,Qtr 3,August,27,Colombia,Vickers Viscount,Vickers Viscount 745DHK 1320,Mt. Elena Colombia,Colombia Aeropesca,0,50,50,60.372566,-134.459961
+1981,Qtr 3,August,27,Colombia,Vickers Viscount,Vickers Viscount 745DHK 1320,Mt. Elena Colombia,Colombia Aeropesca,0,50,50,3.5972827,-74.6768611
 1975,Qtr 3,August,7,Colorado,Boeing,Boeing B 727,Denver Colorado,Airlines Continental,0,0,131,39.7392364,104.984862
 1950,Qtr 3,August,22,Colorado,Douglas,Douglas DC 6N90705,Near Eagle Colorado,Airlines American,0,1,59,56.261183,28.4435346
 2009,Qtr 3,August,26,Congo,Antonov,Antonov An 12BKTN,Nganga Lingolo Congo,Business Fret Aero,0,7,7,-4.3343897,15.1436611
@@ -488,8 +488,8 @@ NC282",Federal Wyoming,Transport Air Boeing,0,1,2,38.889820150000006,77.04024448
 2006,Qtr 3,August,3,Democratic,Antonov,Antonov AN 289Q,Bukavu Democratic,CongoTracep Republic,0,17,17,-2.4982396,28.8549055
 2007,Qtr 3,August,26,Democratic,Antonov,Antonov AN 329Q,Kongolo Democratic,Complany Business Lakes CongoGreat Republic,0,14,15,-1.8859597,30.1296751
 1957,Qtr 3,August,15,Denmark,Ilyushin,Ilyushin IL 14PCCCP,Copenhagen Denmark,Aeroflot,0,23,23,55.6867243,12.5700724
-1971,Qtr 3,August,28,Denmark,Ilyushin,Ilyushin IL 18DHA,Off Copenhagen Denmark,Airlines Hungarian Malev,0,32,34,26.2966528,50.1202146
-1939,Qtr 3,August,15,Denmark,Lockheed 10,Lockheed 10 ElectraG ASEY,Off Copenhagen Denmark,Airways British,0,5,6,26.2966528,50.1202146
+1971,Qtr 3,August,28,Denmark,Ilyushin,Ilyushin IL 18DHA,Off Copenhagen Denmark,Airlines Hungarian Malev,0,32,34,55.6920214,12.589299
+1939,Qtr 3,August,15,Denmark,Lockheed 10,Lockheed 10 ElectraG ASEY,Off Copenhagen Denmark,Airways British,0,5,6,55.6920214,12.589299
 1972,Qtr 3,August,14,East,Ilyushin,Ilyushin IL 62DM,Near Konigs Wusterausen East,GermanyInterflug,0,156,156,56.15619625,4.656210521106075
 2008,Qtr 3,August,30,Ecuador,Boeing,Boeing B 737,Near Toacaso Ecuador,Conviasa,0,3,3,50.401515,-105.542908
 1949,Qtr 3,August,6,Ecuador,Bristol 170 Freighter,Bristol 170 Freighter 21HC SBU,Salasaca Ecuador,Ecuador of Co Shell,0,34,34,-1.31756525,-78.5766164791466
@@ -541,7 +541,7 @@ F",Mazamet France,France Air,0,3,3,43.4902317,2.3764363
 1997,Qtr 3,August,6,Guam,Boeing,Boeing B 747,Agana Guam,Airlines Korean,0,228,254,13.4738606,144.7520556570941
 1993,Qtr 3,August,18,Guantanamo,McDonnell Douglas,McDonnell Douglas DC 8,Leeward Point Airfield Guantanamo,Cuba          Bay American International Airways,0,0,3,32.4709519,100.405938
 2003,Qtr 3,August,24,Haiti,Let,Let 420UVP EHH,Cap Haitien Haiti,Airways Tropical,0,21,21,19.7595236,-72.2008068
-1973,Qtr 3,August,15,Haiti,Norman,Norman BN 2A,Don Don Haiti,Private,0,10,10,-27.482790373678643,-59.00491096479701
+1973,Qtr 3,August,15,Haiti,Norman,Norman BN 2A,Don Don Haiti,Private,0,10,10,18.5787786,-72.328935
 1977,Qtr 3,August,25,Hawaii,Shorts,Shorts SC 7 Skyvan 3,Kona Hawaii,Airways Island,0,2,2,19.6472213,155.9966428
 1957,Qtr 3,August,29,Honduras,Douglas,Douglas DC 3XH,Near Juticalpa Honduras,Airlines Sahsa,0,12,12,7.9366015,-98.3529292
 1975,Qtr 3,August,3,Honduras,Douglas,Douglas DC 47412,Off Amapala Honduras,Force Air Nicaraguan - Military,0,20,20,13.914688,-100.5978685
@@ -556,7 +556,7 @@ F",Mazamet France,France Air,0,3,3,43.4902317,2.3764363
 1939,Qtr 3,August,28,India,De Havilland,De Havilland D 84VT,Lahore India,Airways National Indian,0,2,2,31.7621021,74.8295989
 1957,Qtr 3,August,20,India,Douglas,Douglas DC 3VT,Assam India,Indamer,0,8,8,26.4073841,93.2551303
 1959,Qtr 3,August,3,India,Douglas,Douglas DC 3VT,Sagone India,Airlines Kalinga,0,6,6,38.3249599,43.6589825
-1972,Qtr 3,August,12,India,Fokker,Fokker F 27 Friendship 100VT,Near Delhi India,Airlines Indian,0,18,18,37.0288825,35.8124428
+1972,Qtr 3,August,12,India,Fokker,Fokker F 27 Friendship 100VT,Near Delhi India,Airlines Indian,0,18,18,28.5603226,77.2667188
 1970,Qtr 3,August,29,India,Fokker,Fokker F 27 Friendship 400VT,Near Silchar India,Airlines Indian,0,39,39,39.90632,41.2727715
 1979,Qtr 3,August,4,India,Hindustan Aeronautics 748,Hindustan Aeronautics 748 2 224VT,Near Panvel India,Airlines Indian,0,45,45,47.8507859,35.1182867
 2009,Qtr 3,August,2,Indonesia,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 300PK,Ampisibil Village Indonesia,Airlines Nusantara Merpati,0,16,16,-4.6731208,140.5768076
@@ -671,7 +671,7 @@ F",Mazamet France,France Air,0,3,3,43.4902317,2.3764363
 1946,Qtr 3,August,7,Norway,Douglas,Douglas C 47A,Oslo Norway,Airways European British,0,3,16,59.9133301,10.7389701
 1947,Qtr 3,August,28,Norway,Short Sandringham (flying,Short Sandringham (flying boat)LN IAV,Harsiad Norway,Airlines Norwegian,0,35,35,-25.4295963,49.2712724
 1996,Qtr 3,August,29,Norway,Tupolev,Tupolev TU 154MRA,Near Longyearbyen Norway,Airlines Vnokovo,0,141,141,-9.9765362,67.8220778
-1961,Qtr 3,August,9,Norway,Vickers Viking,Vickers Viking 3BG AHPM,Sola Norway,Airways Eagle Cunard,0,39,39,58.88208225,5.356254245388384
+1961,Qtr 3,August,9,Norway,Vickers Viking,Vickers Viking 3BG AHPM,Sola Norway,Airways Eagle Cunard,0,39,39,58.8893316,5.6308191
 2011,Qtr 3,August,20,Nunavut,Boeing,Boeing B 737,Resolute Bay Nunavut,Canada First Air,0,12,15,74.67911995,94.842250991689
 1979,Qtr 3,August,2,Ohio,Cessna  501,Cessna  501 CitationN15NY,Canton Ohio,Private,0,1,3,40.7985464,81.3749508
 2004,Qtr 3,August,13,Ohio,Convair,Convair CV 580N586P,Cincinnati Ohio,Taroma Air,0,1,2,39.1014537,84.5124602
@@ -754,7 +754,7 @@ F",Mazamet France,France Air,0,3,3,43.4902317,2.3764363
 1959,Qtr 3,August,19,Spain,Douglas,Douglas DC 3G,Near Barcelona Spain,Transair,0,32,32,-6.63992685,20.540541321259425
 1939,Qtr 3,August,4,Spain,Junkers,Junkers JU 52/3mD,Barcelona Spain,Lufthansa Deutsche,0,7,7,41.3828939,2.1774322
 1973,Qtr 3,August,28,Spain,Lockheed,Lockheed C 141A63,Near Huete Spain,Force Air U.S. - Military,0,24,25,-4.4137734,18.29412146181244
-2008,Qtr 3,August,20,Spain,McDonnell Douglas,McDonnell Douglas MD 82EC,Madrid Spain,Spanair,0,154,172,9.2617815,125.9637534
+2008,Qtr 3,August,20,Spain,McDonnell Douglas,McDonnell Douglas MD 82EC,Madrid Spain,Spanair,0,154,172,40.4171553,-3.7058355
 1973,Qtr 3,August,13,Spain,Sud,Sud  Aviation Caravelle 10,Near La  Coruña Spain,Condor Aviaco,1,85,85,41.3501598,72.0761998
 1976,Qtr 3,August,9,"Spain
 	
@@ -821,7 +821,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1996,Qtr 3,August,19,Yugosalvia,Ilyushin,Ilyushin IL 76TRA,Belgrade Yugosalvia,Transport Air Spair,0,12,12,49.4432174,7.7689951
 1949,Qtr 3,August,27,Zaire,Douglas,Douglas C 47B,Leopoldville Zaire,Sabena,0,5,20,,
 1974,Qtr 3,August,18,Zaire,Lockheed,Lockheed C 130H9T,Near Kisangani Zaire,Force Air Zairean - Military,0,31,31,54.3227085,10.135555
-1974,Qtr 4,December,1,Russia,Boeing,Boeing B 727,Bear Mountain,New York          Thiells Northwest Orient Airlines,0,3,3,42.0449913,73.4545858
+1974,Qtr 4,December,1,Russia,Boeing,Boeing B 727,Bear Mountain,New York          Thiells Northwest Orient Airlines,0,3,3,44.7537982,38.4462384
 1972,Qtr 4,December,3,Russia,Convair,Convair CV 990,Tenerife,IslandsSpantax Canary,0,155,155,28.2935785,16.621447121144122
 1970,Qtr 4,December,31,Russia,Fokker,Fokker F 27 Friendship 200 AP,Near Shemshernagar,Airlines International PakistanPakistan,0,7,35,49.0641578,8.9753958
 1963,Qtr 4,December,12,Afghanistan,Douglas,Douglas C 54AOD,Gazni Afghanistan,Airways Mediterranean Trans,0,3,3,33.5448968,68.4132108
@@ -835,7 +835,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1968,Qtr 4,December,24,Alaska,Lockheed,Lockheed L 100 HerculesN760AL,Prudhoe Bay Alaska,Airways Interior,0,2,4,70.326677,148.94325269685487
 1992,Qtr 4,December,21,Algarve,McDonnell Douglas,McDonnell Douglas DC 10,Faro Algarve,Portugalc Holland NV,0,56,340,37.2303635,8.627351585983046
 1994,Qtr 4,December,26,Algeria,Airbus,Airbus A300B2 1CF,Algiers Airport Algeria,France Air,3,3,239,36.7014097,3.2293304654793413
-1970,Qtr 4,December,31,Algeria,Nord,Nord 262EF BNGB,Off Algiers Algeria,Aviation Rousseau,0,31,31,60.734,48.174
+1970,Qtr 4,December,31,Algeria,Nord,Nord 262EF BNGB,Off Algiers Algeria,Aviation Rousseau,0,31,31,36.6981025,3.0951001
 1998,Qtr 4,December,17,Angola,Antonov,Antonov 12S9 SAT,Saurimo Angola,Zanex,0,1,10,-9.6589303,20.3981118
 1998,Qtr 4,December,14,Angola,Antonov,Antonov AN 12BPUR,Near Cuito Angola,Aircompany Khors,0,11,11,13.4738606,144.7520556570941
 1994,Qtr 4,December,15,Angola,Douglas,Douglas DC 3N96BF,Lobito Angola,Services Aviation SL,0,2,2,-12.3506867,13.5464318
@@ -850,7 +850,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1988,Qtr 4,December,11,Armenia,Ilyushin,Ilyushin IL 76 / Mi,Leninakan Armenia,USSRMilitary - Russian Air Force / Military - Russian Air Force,0,77,83,40.7852085,43.8416095
 1946,Qtr 4,December,17,Atlantic,Douglas,Douglas C 47ANC88876,Caribbean Atlantic,Inc. Cargo OceanWinged,0,7,7,12.17932745,83.77740512493148
 1921,Qtr 4,December,5,Australia,Bristol 28,Bristol 28 TourerG AUDI,Near Murchinson River Australia,Airways Australian West,0,2,2,19.6472213,155.9966428
-1932,Qtr 4,December,26,Australia,De Havilland,De Havilland DH 60VH,Wau Australia,Airways Guinea,0,1,1,-37.507870100000005,149.92651512146904
+1932,Qtr 4,December,26,Australia,De Havilland,De Havilland DH 60VH,Wau Australia,Airways Guinea,0,1,1,-31.8848821,115.7772101
 1943,Qtr 4,December,19,Australia,Douglas,Douglas C 47A,Canal Creek Australia,Force Air U.S. - Military,0,31,31,-22.947057,150.4260131367603
 1938,Qtr 4,December,12,Australia,Short S23 ‘C’ Class flying,Short S23 ‘C’ Class flying boatG AEUH,Darwin Australia,Qantas,0,13,13,-12.46044,130.8410469
 1942,Qtr 4,December,19,Austria,Junkers,Junkers JU 52/3mOY,Near Vienna Austria,DDL,0,2,16,14.6672029,86.2195829
@@ -883,10 +883,10 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 2004,Qtr 4,December,11,Brazil,Embraer,Embraer EMB 110 BandeirantePT,Uberaba Brazil,Táxi-Aéreo NHR,1,2,2,-19.750833,-47.936666
 1962,Qtr 4,December,14,Brazil,Lockheed,Lockheed 049 46,Near Manaus Brazil,Brasil do Panair,0,50,50,18.9910971,-73.12058456241039
 1987,Qtr 4,December,14,Brazil,Lockheed,Lockheed C 130HFAB2468,Off Vila dos Remidos Brazil,Force Air Brazilian - Military,0,29,29,-4.6731208,-140.5768076
-1958,Qtr 4,December,30,Brazil,Saab,Saab ScandiaPP SQE,Rio de Janeiro Brazil,VASP,0,21,37,24.3753438,-4.3208436
+1958,Qtr 4,December,30,Brazil,Saab,Saab ScandiaPP SQE,Rio de Janeiro Brazil,VASP,0,21,37,-22.9055144,-43.0977136
 1958,Qtr 4,December,30,Brazil,Saab,Saab ScandiaPP SQE,Rio de Janeiro Brazil,VASP,0,21,37,-22.9110137,-43.2093727
 1958,Qtr 4,December,30,Brazil,Saab,Saab ScandiaPP SQE,Rio de Janeiro Brazil,VASP,0,21,37,-22.9068,-43.1729
-1959,Qtr 4,December,22,Brazil,Vickers Viscount 827 / Fokker,Vickers Viscount 827 / Fokker T 21PP,Rio de Janeiro Brazil,VASP,10,32,32,24.3753438,-4.3208436
+1959,Qtr 4,December,22,Brazil,Vickers Viscount 827 / Fokker,Vickers Viscount 827 / Fokker T 21PP,Rio de Janeiro Brazil,VASP,10,32,32,-22.9055144,-43.0977136
 1959,Qtr 4,December,22,Brazil,Vickers Viscount 827 / Fokker,Vickers Viscount 827 / Fokker T 21PP,Rio de Janeiro Brazil,VASP,10,32,32,-22.9110137,-43.2093727
 1959,Qtr 4,December,22,Brazil,Vickers Viscount 827 / Fokker,Vickers Viscount 827 / Fokker T 21PP,Rio de Janeiro Brazil,VASP,10,32,32,-22.9068,-43.1729
 1956,Qtr 4,December,9,British,Canadair,Canadair DC 4M,Near Chilliwack British,Canada          Columbia Trans Canada Air Lines,0,62,62,-3.7009102,137.9649142
@@ -939,7 +939,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1979,Qtr 4,December,18,Colombia,Douglas,Douglas DC 4 (C,Cerro Toledo Mountain Colombia,Satena,0,21,21,38.0464066,-84.4970393
 2003,Qtr 4,December,18,Colombia,Douglas,Douglas DC 9,Mitu Colombia,Suramericanas Aéreas Líneas,0,3,3,1.2538499,-70.2345576
 2001,Qtr 4,December,16,Colombia,Let,Let 410UVP EHK,Near Medellin Colombia,Heliandes,0,16,16,26.5707754,-128.0255901
-1966,Qtr 4,December,18,Colombia,Lockheed,Lockheed L 1649A StarlinerN7301C,Bogota Colombia,Colombia de Aerocondor,0,17,59,-34.0845443,-151.1512348
+1966,Qtr 4,December,18,Colombia,Lockheed,Lockheed L 1649A StarlinerN7301C,Bogota Colombia,Colombia de Aerocondor,0,17,59,4.662332,-74.0674358
 1966,Qtr 4,December,18,Colombia,Lockheed,Lockheed L 1649A StarlinerN7301C,Bogota Colombia,Colombia de Aerocondor,0,17,59,4.6533816,-74.0836333
 1932,Qtr 4,December,14,Colorado,Boeing,Boeing 40NC281,Rocky Ridge Colorado,Transport Air Boeing,0,1,1,37.2297036244377,108.6227643752856
 2008,Qtr 4,December,20,Colorado,Boeing,Boeing 737 500N18611,Denver Colorado,Airlines Continental,0,0,115,39.7392364,104.984862
@@ -962,7 +962,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1966,Qtr 4,December,24,Da,Canadair,Canadair CL 44D4,Binh Tahi Da,Vietnam          Nang Flying Tiger Line,125,4,4,44.3169922,69.7734278
 2001,Qtr 4,December,14,Democratic,Let,Let 410A5X CNF,Geti Democratic,Air CongoEagle Republic,0,6,6,35.848712,14.4961353
 1986,Qtr 4,December,12,East,Tupolev,Tupolev TU 134ACCCP,Berlin East,GermanyAeroflot,0,72,82,39.937597,76.9785892
-1977,Qtr 4,December,29,Ecuador,Vickers Viscount 764,Vickers Viscount 764 DHC BEM,Cuenca Ecuador,Nacionales Aereos Servicios,0,24,24,-21.1776315,-47.8100983
+1977,Qtr 4,December,29,Ecuador,Vickers Viscount 764,Vickers Viscount 764 DHC BEM,Cuenca Ecuador,Nacionales Aereos Servicios,0,24,24,-2.8962479,-79.0025759
 1977,Qtr 4,December,29,Ecuador,Vickers Viscount 764,Vickers Viscount 764 DHC BEM,Cuenca Ecuador,Nacionales Aereos Servicios,0,24,24,-2.8974072,-79.0041726
 1988,Qtr 4,December,14,Egypt,Boeing,Boeing B 707,Near Luxor Egypt,Air GAS,5,8,8,53.6901697,95.7979702
 1935,Qtr 4,December,31,Egypt,Short,Short S 8 Calcutta flying boatG,Off Alexandria Egypt,Airways Imperial,0,12,13,50.6323125,96.9881076
@@ -984,7 +984,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1972,Qtr 4,December,29,Florida,Lockheed,Lockheed L 1011 TriStar 1N310EA,Everglades National Park Florida,Lines Air Eastern,0,103,176,25.36794425,80.87830662413266
 2011,Qtr 4,December,26,Florida?,Bell,Bell 206BN5016M,Green Grove Florida?,Aeroflot,0,3,3,29.634135,82.2676019
 1928,Qtr 4,December,31,France,Blériot Spad,Blériot Spad 66F AEHX,Reims France,CIDNA,0,2,3,49.2577886,4.031926
-1935,Qtr 4,December,4,France,Caudron,Caudron C 630 SimounF,Tours France,Bleu Air,0,1,2,55.7646281,37.6312342
+1935,Qtr 4,December,4,France,Caudron,Caudron C 630 SimounF,Tours France,Bleu Air,0,1,2,47.3900474,0.6889268
 1945,Qtr 4,December,3,France,Consolidated,Consolidated LB 30A LiberatorKH125,Near Rochefort  France,Force Air -Royal Military,0,28,28,41.2727997,70.0951867
 1949,Qtr 4,December,18,France,Douglas,Douglas C 47A,Aulnay-sous-Bois France,Sabena,0,8,8,48.934231,2.499789
 1950,Qtr 4,December,9,France,Douglas,Douglas DC 3F,Ruig Piner France,Atlas Air,0,5,7,20.9127045,17.0503094
@@ -1158,7 +1158,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 2016,Qtr 4,December,7,Pakistan,ATR,ATR  42,Near Havlien Pakistan,Airlines International Pakistan,0,48,48,18.1215622,65.45746403129988
 1949,Qtr 4,December,30,Pakistan,Douglas,Douglas C 54A,Comilla Pakistan,Airways Bharat,0,7,7,18.2129421,66.05588435626197
 1949,Qtr 4,December,12,Pakistan,Douglas,Douglas DC 3AP,Jungshahi Pakistan,Pakair,0,26,26,24.85710585,67.7745938462678
-1972,Qtr 4,December,8,Pakistan,Fokker,Fokker F 27 Friendship 400AP,Near Rawalpindi Pakistan,Airlines International Pakistan,0,26,26,46.58025965,71.61801295103928
+1972,Qtr 4,December,8,Pakistan,Fokker,Fokker F 27 Friendship 400AP,Near Rawalpindi Pakistan,Airlines International Pakistan,0,26,26,33.6313371,73.0732419
 1997,Qtr 4,December,31,Panama,Britten Norman,Britten Norman BN 2A TrislanderHP,Rio Sidra Panama,Parsa,0,10,10,9.4519359,-78.8327433400942
 2002,Qtr 4,December,13,Papua,Britten,Britten  Norman BN,Gohu Airstrip Papua,Ltd. Airways GuineaIsland New,0,8,8,44.4361414,26.1027202
 1995,Qtr 4,December,22,Papua,Britten Norman,Britten Norman BN 2A,Bagasin Papua,Airways GuineaIsland New,0,2,12,44.95368,26.0271744
@@ -1363,10 +1363,10 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 2009,Qtr 1,February,7,Brazil,Bandeirante,Bandeirante EMB 110P1PT,Manacapuru Brazil,Manaus Aerotaxi,0,24,28,-3.2996768,-60.6213528
 1997,Qtr 1,February,14,Brazil,Boeing,Boeing B 737,Carajas Brazil,Varig,0,1,52,-4.5658733,-50.2776717
 1948,Qtr 1,February,27,Brazil,Douglas,Douglas C 472040,Near Belem Brazil,Force Air Brazilian - Military,0,23,26,59.786763,-154.14304081829104
-1960,Qtr 1,February,25,Brazil,Douglas,Douglas DC 3 / USN R4,Rio de Janeiro Brazil,Navy U.S. - Military / REAL,0,61,64,24.3753438,-4.3208436
+1960,Qtr 1,February,25,Brazil,Douglas,Douglas DC 3 / USN R4,Rio de Janeiro Brazil,Navy U.S. - Military / REAL,0,61,64,-22.9055144,-43.0977136
 1960,Qtr 1,February,25,Brazil,Douglas,Douglas DC 3 / USN R4,Rio de Janeiro Brazil,Navy U.S. - Military / REAL,0,61,64,-22.9110137,-43.2093727
 1960,Qtr 1,February,25,Brazil,Douglas,Douglas DC 3 / USN R4,Rio de Janeiro Brazil,Navy U.S. - Military / REAL,0,61,64,-22.9068,-43.1729
-1958,Qtr 1,February,1,Brazil,Douglas,Douglas DC 4PP,Rio de Janeiro Brazil,Nacional Aéreo Loide,0,5,73,24.3753438,-4.3208436
+1958,Qtr 1,February,1,Brazil,Douglas,Douglas DC 4PP,Rio de Janeiro Brazil,Nacional Aéreo Loide,0,5,73,-22.9055144,-43.0977136
 1958,Qtr 1,February,1,Brazil,Douglas,Douglas DC 4PP,Rio de Janeiro Brazil,Nacional Aéreo Loide,0,5,73,-22.9110137,-43.2093727
 1958,Qtr 1,February,1,Brazil,Douglas,Douglas DC 4PP,Rio de Janeiro Brazil,Nacional Aéreo Loide,0,5,73,-22.9068,-43.1729
 1979,Qtr 1,February,8,Brazil,Embraer 110C,Embraer 110C BandeirantePP SBB,Near Agudos Brazil,Regional Aéreas Lineas TAM,0,18,18,70.326677,-148.94325269685487
@@ -1409,7 +1409,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1999,Qtr 1,February,24,China,Tupolev,Tupolev TU 154B,Rui'an China,Airlines Southwest China,0,61,61,27.7809047,120.6512652
 1975,Qtr 1,February,22,Colombia,Canadair,Canadair CL 44HK,Medellin Colombia,Aerocondor,0,5,5,6.269732449999999,-75.60255965090315
 1949,Qtr 1,February,5,Colombia,Consolidated,Consolidated PBY 5A CatalinaHK,Buenaventura Bay Colombia,Avianca,0,3,14,3.805,-77.2
-1993,Qtr 1,February,20,Colombia,Convair,Convair CV 440HP,Bogota Colombia,Panama Three Cargo,0,2,2,-34.0845443,-151.1512348
+1993,Qtr 1,February,20,Colombia,Convair,Convair CV 440HP,Bogota Colombia,Panama Three Cargo,0,2,2,4.662332,-74.0674358
 1993,Qtr 1,February,20,Colombia,Convair,Convair CV 440HP,Bogota Colombia,Panama Three Cargo,0,2,2,4.6533816,-74.0836333
 1951,Qtr 1,February,14,Colombia,Curtiss,Curtiss C 46AHK,Yali Colombia,Nacionales Aéreas Lineas,0,2,2,6.675426,-74.84226
 1962,Qtr 1,February,25,Colombia,Douglas,Douglas C 47AHK,Municipio de Marulanda Colombia,Avianca,0,2,2,5.28323705,-75.26002491961401
@@ -1432,7 +1432,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1950,Qtr 1,February,27,Czechoslovakia,Douglas,Douglas C 47A,Near Prague Czechoslovakia,Aerolinie Ceskoslovenske,0,5,30,50.56999985,3.7793461759110007
 1973,Qtr 1,February,19,Czechoslovakia,Tupolev,Tupolev TU 154CCCP,Prague Czechoslovakia,Aeroflot,0,66,100,-12.9482581,65.1120651
 1947,Qtr 1,February,5,Delaware,Douglas,Douglas DC 3NC54451,Harrington Delaware,Freight Air International,0,1,3,38.9237244,75.5777033
-1949,Qtr 1,February,8,Denmark,Vickers 628 Viking,Vickers 628 Viking 1BOY DLU,Off Copenhagen Denmark,(SAS) Airlines Scandinavian,0,27,27,26.2966528,50.1202146
+1949,Qtr 1,February,8,Denmark,Vickers 628 Viking,Vickers 628 Viking 1BOY DLU,Off Copenhagen Denmark,(SAS) Airlines Scandinavian,0,27,27,55.6920214,12.589299
 1982,Qtr 1,February,3,Djbouti,Nord 2501,Nord 2501 Noratlas140/88JA,Djibouti Djbouti,Force Air French - Military,0,35,35,6.3676953,2.4252507
 1996,Qtr 1,February,6,Domincan,Boeing,Boeing B 757,Off Puerto Plata Domincan,leased from Birgen Air         Nacionales RepublicAlas,0,189,189,-17.8454338,60.7421903
 1970,Qtr 1,February,15,Dominican,McDonnell Douglas,McDonnell Douglas DC 9,Off Santo Domingo Dominican,Aviacion de Dominicana RepublicCompania,0,102,102,-10.818915,65.3550455
@@ -1491,7 +1491,7 @@ Moron",SpainMoron AFB          AFB,0,12,32,-21.2349911,159.77872366478397
 1948,Qtr 1,February,10,Indonesia,Douglas,Douglas DC 3PK,Near Padalarang Indonesia,Airlines Dutch Royal KLM,0,19,19,-29.902631,71.2520253
 1961,Qtr 1,February,3,Indonesia,Douglas,Douglas DC 3PK,Off Surabaya Indonesia,Airlines Indonesia Garuda,0,26,26,36.474436,103.733224
 1972,Qtr 1,February,1,Indonesia,Douglas,Douglas DC 6XW,Near Tegal Indonesia,Laos/PENAS Air Royal,0,6,9,28.58689,104.718661
-1967,Qtr 1,February,16,Indonesia,Lockheed,Lockheed L 188C ElectraPK,Manado Indonesia,Airlines Indonesia Garuda,0,22,63,1.4900578,124.8408708
+1967,Qtr 1,February,16,Indonesia,Lockheed,Lockheed L 188C ElectraPK,Manado Indonesia,Airlines Indonesia Garuda,0,22,63,1.4537346,124.8196463
 2005,Qtr 1,February,22,"Indonesia
 	
 Sarmi",Casa 212,"CASA 212 AviocarP 2032
@@ -1663,7 +1663,7 @@ Sarmi",Indonesia Indonesian National Police,0,15,18,32.0438284,118.7788631
 1968,Qtr 1,February,16,Taiwan,Boeing,Boeing B 727,Linkuo Taiwan,Transport Air Civil,2,21,63,9.8415861,77.3849422
 1986,Qtr 1,February,16,Taiwan,Boeing,Boeing B 737,Off Makung Taiwan,(Taiwan) Airlines China,0,13,13,14.4493717,79.9873763
 1993,Qtr 1,February,28,Taiwan,Dornier,Dornier 228 201B,Off Green Island Taiwan,Airlines Formosa,0,6,6,41.7075394,86.8950297
-1969,Qtr 1,February,24,Taiwan,Handley Page Dart Herald,Handley Page Dart Herald 201B 2009,Tainan Taiwan,Transport Air Eastern Far,0,36,36,22.9912348,120.184982
+1969,Qtr 1,February,24,Taiwan,Handley Page Dart Herald,Handley Page Dart Herald 201B 2009,Tainan Taiwan,Transport Air Eastern Far,0,36,36,22.995717,120.2108522
 1944,Qtr 1,February,10,Tennessee,Douglas,Douglas DC 3NC21767,Memphis Tennessee,Airlines American,0,24,24,35.1460249,90.0517638
 2006,Qtr 1,February,8,Tennessee,Swearingen SA.226TC Metro,Swearingen SA.226TC Metro IIN629EK,Near Paris Tennessee,Air Tri,0,1,1,37.970495,87.5715641
 2019,Qtr 1,February,23,Texas,Boeing,Boeing 767 375ERN1217A,Houston Texas,Amazon serving Air Atlas,0,3,3,29.7589382,95.3676974
@@ -1761,7 +1761,7 @@ Sarmi",Indonesia Indonesian National Police,0,15,18,32.0438284,118.7788631
 1976,Qtr 1,January,22,Brazil,Embraer 110C,Embraer 110C BandeirantePT TBD,Chapeco Brazil,Transbrasil,0,9,11,-27.0922364,-52.6166878
 1978,Qtr 1,January,31,Brazil,Embraer 110P,Embraer 110P BandeirantePT GKW,Eirunepe Brazil,TABA,0,2,14,-6.6567654,-69.866161
 1958,Qtr 1,January,16,Brazil,Fairchild,Fairchild C 82APP,Belem Brazil,Cruzeiro,0,3,3,-1.45056,-48.4682453
-1939,Qtr 1,January,13,Brazil,Junkers,Junkers JU 52/3mPP,Rio de Janeiro Brazil,Condor Syndicato,0,10,10,24.3753438,-4.3208436
+1939,Qtr 1,January,13,Brazil,Junkers,Junkers JU 52/3mPP,Rio de Janeiro Brazil,Condor Syndicato,0,10,10,-22.9055144,-43.0977136
 1939,Qtr 1,January,13,Brazil,Junkers,Junkers JU 52/3mPP,Rio de Janeiro Brazil,Condor Syndicato,0,10,10,-22.9110137,-43.2093727
 1939,Qtr 1,January,13,Brazil,Junkers,Junkers JU 52/3mPP,Rio de Janeiro Brazil,Condor Syndicato,0,10,10,-22.9068,-43.1729
 1949,Qtr 1,January,11,Brazil,Lockheed 18,Lockheed 18 LodestarPP SAC,Near Pelotas Brazil,S.A. Gaucha Aerea Viacao,0,12,12,24.64172985,-99.84796066222523
@@ -1831,7 +1831,7 @@ Sarmi",Indonesia Indonesian National Police,0,15,18,32.0438284,118.7788631
 1990,Qtr 1,January,15,Costa,CASA 212 Aviocar,CASA 212 Aviocar 200TI SAB,Pico Blanco Costa,RicaSANSA,0,23,23,59.8545801,10.4450346
 2000,Qtr 1,January,15,Costa,Let,Let 410UVP EYS,San Jose Costa,RicaTACA,0,5,20,-34.9069638,56.19625378079975
 1955,Qtr 1,January,12,Covington,Martin 202A /,Martin 202A / DC 3N93211/N999B,Greater Cincinnati Airport Covington,Kentucky Trans World Airlines / Castleton Inc.,0,15,15,39.9622601,83.0007065
-1985,Qtr 1,January,19,Cuba,Ilyushin,Ilyushin IL 18DCU,Havana Cuba,Aviacion de Cubana,0,38,38,22.1883069,-113.5493076
+1985,Qtr 1,January,19,Cuba,Ilyushin,Ilyushin IL 18DCU,Havana Cuba,Aviacion de Cubana,0,38,38,23.1367092,-82.3516096
 1966,Qtr 1,January,9,Cundinamarca,DC3(C47)FAC,DC3(C47)FAC  675,Chipaque Cundinamarca,Colombia Satena,0,11,11,4.4070793,74.0697039
 1973,Qtr 1,January,29,Cyprus,Ilyushin,Ilyushin IL 18DSU,Near Kyrenia Cyprus,Egyptair,0,37,37,41.4000523,82.8085204
 1954,Qtr 1,January,12,Czech,Douglas,Douglas C 47 Skytrain (DC,Prague Czech,Airlines RepublicCzech,0,13,18,50.0864234,14.4156772
@@ -1905,7 +1905,7 @@ Sarmi",Indonesia Indonesian National Police,0,15,18,32.0438284,118.7788631
 1945,Qtr 1,January,6,India,Douglas,Douglas C 4777,Near Dinjan India,Corporation Aviation National China,0,4,4,56.858675,35.9208284
 1960,Qtr 1,January,3,India,Douglas,Douglas C 47AVT,Taksing India,Airlines Indian,0,9,9,28.4345031,93.2038913
 1949,Qtr 1,January,16,India,Douglas,Douglas DC 3VT,Near Srinagar India,Airways Jain Dalmia,0,13,13,52.0196462,95.4547602
-1970,Qtr 1,January,25,India,Fokker,Fokker F 27 Friendship 2009N,Near Delhi India,Airlines Nepal Royal,0,1,23,37.0288825,35.8124428
+1970,Qtr 1,January,25,India,Fokker,Fokker F 27 Friendship 2009N,Near Delhi India,Airlines Nepal Royal,0,1,23,28.5603226,77.2667188
 1984,Qtr 1,January,30,Indiana,Swearingen SA.226TC Metro,Swearingen SA.226TC Metro IIN63Z,Terre Haute Indiana,Airways Britt,0,3,3,39.4667025,87.4139119
 2021,Qtr 1,January,9,Indonesia,Boeing,Boeing 737 524PK,Near Jakarta Indonesia,Air Sriwijaya,0,62,62,8.9179829,67.4173328
 2002,Qtr 1,January,16,Indonesia,Boeing,Boeing B 737,Near Solo Indonesia,Airlines Indonesia Garuda,0,1,62,52.3533582,104.2191538
@@ -1987,7 +1987,7 @@ Sarmi",Indonesia Indonesian National Police,0,15,18,32.0438284,118.7788631
 1939,Qtr 1,January,13,Montana,Lockheed,Lockheed 14 H Super ElectraNC17389,Miles City Montana,Airlines Orient Northwest,0,4,4,46.4085273,105.840981
 1938,Qtr 1,January,10,Montana,Lockheed 14H Super,Lockheed 14H Super ElectraNC 17388,Bozeman Montana,Airlines Orient Northwest,0,10,10,45.6794293,111.044047
 1998,Qtr 1,January,27,Myanmar,Fokker,Fokker F 27 Friendship 600XY,Yangon (Rangoon) Myanmar,Airways Myanmar,0,16,45,16.830584086095755,96.219108416901
-2005,Qtr 1,January,13,Russia,Antonov,Antonov AN 2RA,Tura,Russia Tura Air Enterprise,0,9,9,47.60935,19.5949442
+2005,Qtr 1,January,13,Russia,Antonov,Antonov AN 2RA,Tura,Russia Tura Air Enterprise,0,9,9,58.1787106,63.0699563
 1977,Qtr 1,January,20,Russia,Bristol 170 Freighter,Bristol 170 Freighter 31MC FWAD,?North Canada Air,Aeroflot,0,1,2,49.1932902,123.1601178
 2006,Qtr 1,January,2,Russia,British Aerospace,British Aerospace BAe 125,Near KarkovEvolga,Aeroflot,0,3,3,51.95633585,4.439731915265206
 2014,Qtr 1,January,20,Russia,Britten Norman,Britten Norman BN 2A,Near Petreasa RomaniaScoala Superioara de Aviatie Civla,Aeroflot,0,2,7,41.250324,31.8389738
@@ -2050,7 +2050,7 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1929,Qtr 1,January,18,Oregon,Stearman,Stearman C 38NC1682,Cove Oregon,Lines Air Varney,0,1,1,45.2965257,117.807987
 1998,Qtr 1,January,13,Pakistan,Antonov,Antonov AN 12BPYA,Tor Kach Pakistan,Airlines Afghan Ariana - Military,0,51,51,48.14314035,11.50750936239955
 2002,Qtr 1,January,9,Pakistan,Lockheed Hercules,Lockheed Hercules KC 130R160021,Shamsi AFB Pakistan,Force Air U.S. - Military,0,7,7,-37.81308661822981,72.67449629233867
-1935,Qtr 1,January,8,Pakistan,Wapiti?,Wapiti?,Near Karachi Pakistan,Force Air Indian,15,0,2,-17.831773,31.045686
+1935,Qtr 1,January,8,Pakistan,Wapiti?,Wapiti?,Near Karachi Pakistan,Force Air Indian,15,0,2,24.9234176,67.0578025
 1974,Qtr 1,January,6,Pennsylvania,Beechcraft,Beechcraft 99AN125AE,Johnstown Pennsylvania,East Air,0,12,17,40.3267407,78.9219698
 1935,Qtr 1,January,26,Pennsylvania,Consolidated,Consolidated FleetsterNC13212,Pittsburgh Pennsylvania,Air Western and Continental Trans,0,1,1,40.3693889,80.6243098
 1969,Qtr 1,January,6,Pennsylvania,Convair,Convair CV 580N5825,Near Bradford Pennsylvania,Airlines Allegheny,0,11,28,-15.4100326,65.3564919
@@ -2173,7 +2173,7 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1996,Qtr 1,January,8,Zaire,Antonov,Antonov AN 32BRA,Kinshasa Zaire,Air African,225,2,6,,
 1997,Qtr 3,July,18,Russia,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 300P2,Goroka,Services Air GuineaGoroka New,0,2,4,-6.0730028,145.3932891
 1995,Qtr 3,July,17,Russia,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 300PK,Bintuni,Airlines Nusantara IndonesiaMerpati,0,1,18,-2.1138854,133.5287755
-2009,Qtr 3,July,3,Russia,Mil,Mil Mi 17?,Near,Pakistan          Peshawar Military - Pakistan Army,0,26,26,27.7809047,120.6512652
+2009,Qtr 3,July,3,Russia,Mil,Mil Mi 17?,Near,Pakistan          Peshawar Military - Pakistan Army,0,26,26,59.7415225,29.4275436
 1992,Qtr 3,July,24,Russia,Vickers Viscount,Vickers Viscount 816PK RVU,Mt. Lalaboy,Airlines IndonesiaMandala,0,70,70,3.805,77.2
 1953,Qtr 3,July,12,325,Douglas,Douglas DC 6AN90806,Pacific Ocean 325,Lines Air IslandTransocean Wake of east miles,0,58,58,-37.05238718534656,175.93813353077223
 2011,Qtr 3,July,6,Afghanistan,Ilyushin76TD4K,Ilyushin76TD4K  AZ55,Near Bagram Air Base Afghanistan,Airlines Way Silk,0,9,9,6.675426,74.84226
@@ -2269,13 +2269,13 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1981,Qtr 3,July,25,Colombia,Douglas,Douglas C 53D,Caruru Colombia,Transamazonica,0,5,9,1.5370737,-70.2054609
 1972,Qtr 3,July,29,Colombia,Douglas,Douglas DC 3 / Douglas DC,Villavicencio Colombia,AVIANCA / AVIANCA,0,38,38,-21.16636,-27.502515
 1972,Qtr 3,July,29,Colombia,Douglas,Douglas DC 3 / Douglas DC,Villavicencio Colombia,AVIANCA / AVIANCA,0,38,38,4.1347644,-73.6201517
-1974,Qtr 3,July,24,Colombia,Douglas,Douglas DC 4HK,Bogota Colombia,Colombia Aeronorte,0,3,3,-34.0845443,-151.1512348
+1974,Qtr 3,July,24,Colombia,Douglas,Douglas DC 4HK,Bogota Colombia,Colombia Aeronorte,0,3,3,4.662332,-74.0674358
 1974,Qtr 3,July,24,Colombia,Douglas,Douglas DC 4HK,Bogota Colombia,Colombia Aeronorte,0,3,3,4.6533816,-74.0836333
 1999,Qtr 3,July,4,Colombia,Douglas,Douglas DC 6AHK,Villavicencio Colombia,Colombia LANC,0,5,18,-21.16636,-27.502515
 1999,Qtr 3,July,4,Colombia,Douglas,Douglas DC 6AHK,Villavicencio Colombia,Colombia LANC,0,5,18,4.1347644,-73.6201517
 1985,Qtr 3,July,24,Colombia,Douglas,Douglas DC 6BFAC,Leticia Colombia,Colombiana Aérea Fuerza,0,80,80,-4.2129211,-69.9425963
 1935,Qtr 3,July,28,Colombia,Junkers,Junkers W 34406,El Retiro Colombia,Colombiana Aerea Fuerza,0,5,5,6.0572745,-75.502611
-1975,Qtr 3,July,10,Colombia,Lockheed,Lockheed L 188AF ElectraHK,Bogota Colombia,Condor Aerovias,0,2,4,-34.0845443,-151.1512348
+1975,Qtr 3,July,10,Colombia,Lockheed,Lockheed L 188AF ElectraHK,Bogota Colombia,Condor Aerovias,0,2,4,4.662332,-74.0674358
 1975,Qtr 3,July,10,Colombia,Lockheed,Lockheed L 188AF ElectraHK,Bogota Colombia,Condor Aerovias,0,2,4,4.6533816,-74.0836333
 1997,Qtr 3,July,6,Colombia,Mil,Mil Mi 17 (helicopter)?,Near Saravena Colombia,Army Colombian - Military,0,25,29,,
 1966,Qtr 3,July,11,Colorado,De Havilland,de Havilland 104 6AN1563V,Hideaway Park Colorado,Airways Alamo,0,3,3,39.92039595,105.78432075672396
@@ -2290,7 +2290,7 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1994,Qtr 3,July,17,Democratic,Yakovlev,Yakovlev 40DRA 87256,Boma Democratic,Service Air CongoSankuru Republic,0,5,9,43.1306766,11.0162788
 1960,Qtr 3,July,16,Denmark,De Havilland,de Havilland DH 89 Dragon RapideOY,Copenhagen Denmark,Tjenesten Flyve,0,8,9,55.6867243,12.5700724
 1930,Qtr 3,July,7,Denmark,Dornier,Dornier WalD 864,Bornholm Denmark,Lufthansa Deutsche,0,5,8,55.1431224,14.922629658767558
-1946,Qtr 3,July,17,Ecuador,Curtiss,Curtiss C 46D,Cuenca Ecuador,ANDESA,0,30,30,-21.1776315,-47.8100983
+1946,Qtr 3,July,17,Ecuador,Curtiss,Curtiss C 46D,Cuenca Ecuador,ANDESA,0,30,30,-2.8962479,-79.0025759
 1946,Qtr 3,July,17,Ecuador,Curtiss,Curtiss C 46D,Cuenca Ecuador,ANDESA,0,30,30,-2.8974072,-79.0041726
 1960,Qtr 3,July,11,Ecuador,Douglas,Douglas C 47B,Near Quito Ecuador,Misson U.S. - Military,0,18,18,40.8213963,-14.4261967
 1965,Qtr 3,July,7,Egypt,Antonov,Antonov AN 12?,Cairo Egypt,Force Air Soviet - Military,0,30,31,30.0443879,31.2357257
@@ -2425,7 +2425,7 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1996,Qtr 3,July,17,Mexico,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 300XA,Near Playa del Carmen Mexico,(Aerocaribe) Aerolatino,0,1,18,-9.53031745,-76.11427538631659
 1955,Qtr 3,July,14,Mexico,Douglas,Douglas DC 2,Oaxaca Mexico,Unidas Areas Lineas,0,22,22,17.0,-96.5
 2008,Qtr 3,July,6,Mexico,Douglas,Douglas DC9 15FN199US,Saltillo Mexico,Airlines Jet USA,0,1,2,25.4230425,-100.9927509
-1999,Qtr 3,July,9,Mexico,Hawker Siddeley,Hawker Siddeley HS 125XA,Toluca  Mexico,Express Jet Aero,0,4,4,10.0206654,-122.97715983111424
+1999,Qtr 3,July,9,Mexico,Hawker Siddeley,Hawker Siddeley HS 125XA,Toluca  Mexico,Express Jet Aero,0,4,4,19.281598,-99.4923411
 1981,Qtr 3,July,27,Mexico,McDonnell Douglas,McDonnell Douglas DC 9,Chihuahua Mexico,Aeromexico,0,32,66,28.5000001,-106.0000001
 2007,Qtr 3,July,5,Mexico,North American,North American CT 39A SabrelineXA,Culiacan Mexico,SA Paqueteria Jett,6,3,3,24.7978965,-107.393395
 1998,Qtr 3,July,23,Mexico,Shorts,Shorts SC 7 Skyvan 3,Pico de Orizaba Mexico,Force Air Mexican - Military,0,4,4,19.0303263,-97.2698195
@@ -2450,7 +2450,7 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1933,Qtr 3,July,18,Russia,CMASA Wal (flying,CMASA Wal (flying boat)I AZEE,Aegean SeaSocieta Anonima Aero Expresso Italiana,Aeroflot,0,6,6,46.8137431,71.2084061
 1945,Qtr 3,July,4,Russia,Consolidated,Consolidated LB 30A LiberatorJT982,North Atlantic OceanMilitary -Royal Air Force,Aeroflot,0,15,15,41.8239891,71.4128343
 1948,Qtr 3,July,16,Russia,Consolidated,Consolidated OA 10 CatalinaVR,Pacific Ocean between Hong Kong and MacaoCathay Pacific Airways,Aeroflot,0,25,26,46.5,23.2
-1943,Qtr 3,July,4,Russia,Consolidated Liberator B24,Consolidated Liberator B24 CA L,Gibraltar?,Aeroflot,0,12,13,36.1285933,5.3474761
+1943,Qtr 3,July,4,Russia,Consolidated Liberator B24,Consolidated Liberator B24 CA L,Gibraltar?,Aeroflot,0,12,13,56.0708794,92.9316471
 1968,Qtr 3,July,18,Russia,Curtiss,Curtiss C 46DCC,Off ChiliAerolineas Flecha Austral,Aeroflot,0,5,5,43.4769604,43.5966578
 1981,Qtr 3,July,24,Russia,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 3005R,MadagascarAir Madagascar,Aeroflot,0,19,19,55.285088,38.3959035
 1940,Qtr 3,July,7,Russia,Dewoitine,Dewoitine D 338F,Gulf of TonkinAir France,Aeroflot,0,4,4,59.9911386,30.1673669
@@ -2491,7 +2491,7 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1963,Qtr 3,July,2,New,Martin,Martin 404N449A,Rochester New,Airlines YorkMohawk,0,7,43,43.157285,77.615214
 1945,Qtr 3,July,28,New,North American,North American B 25D bomber43,New York New,Forces Air Army U.S. - YorkMilitary,11,3,3,40.7127281,74.0060152
 1967,Qtr 3,July,15,Newfoundland,??,??,Near Williamsport Newfoundland,Canada Eastern Provincial Airways,0,4,4,36.5984231,10.4990402
-1997,Qtr 3,July,29,Nigeria,BAC,BAC One Eleven 203AE5N,Calabar  Nigeria,Airlines ADC,0,1,55,45.7581012,8.5578947
+1997,Qtr 3,July,29,Nigeria,BAC,BAC One Eleven 203AE5N,Calabar  Nigeria,Airlines ADC,0,1,55,4.963563,8.3241369
 1988,Qtr 3,July,21,Nigeria,Boeing,Boeing 707 328CD2,Near Lagos Nigeria,Charter Air Angola,0,6,6,-30.6170756,56.9373451
 1968,Qtr 3,July,13,Nigeria,Boeing,Boeing 707 329COO,Near Lagos Nigeria,Sabena,0,7,7,-30.6170756,56.9373451
 2002,Qtr 3,July,16,Norfork,Sikorsky,Sikorsky S 76AG,Off Cromer Norfork,England Bristow Helicopters,0,11,11,8.5816963,71.1658075
@@ -2650,19 +2650,19 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1957,Qtr 2,June,23,BC,Douglas,Douglas DC 3CF,Port Hardy BC,Canada Pacific Western,0,14,18,50.7244402,127.4976081
 1980,Qtr 2,June,2,Bolivia,Fairchild,Fairchild F 27JCP,Near Yachiba Bolivia,Boliviano Aereo Lloyd,0,13,13,33.8246269,-116.540303
 1947,Qtr 2,June,11,Brazil,Avro 691,Avro 691 LancastrianLV ACS,Near Natal Brazil,Argentina Mercante Aérea Flota,0,5,18,39.1501662,-123.2077861
-1973,Qtr 2,June,9,Brazil,Boeing,Boeing 707 327CPP,Rio de Janeiro Brazil,Varig,0,2,4,24.3753438,-4.3208436
+1973,Qtr 2,June,9,Brazil,Boeing,Boeing 707 327CPP,Rio de Janeiro Brazil,Varig,0,2,4,-22.9055144,-43.0977136
 1973,Qtr 2,June,9,Brazil,Boeing,Boeing 707 327CPP,Rio de Janeiro Brazil,Varig,0,2,4,-22.9110137,-43.2093727
 1973,Qtr 2,June,9,Brazil,Boeing,Boeing 707 327CPP,Rio de Janeiro Brazil,Varig,0,2,4,-22.9068,-43.1729
 1992,Qtr 2,June,22,Brazil,Boeing,Boeing 737 2A1CPP,Cruzeiro do Sul Brazil,VASP,0,3,3,-29.5139742,-51.9917068
 1982,Qtr 2,June,8,Brazil,Boeing,Boeing B 727,Near Pacatuba Brazil,VASP,0,137,137,34.8416435,-118.8648189
-1960,Qtr 2,June,24,Brazil,Convair,Convair CV 340,Rio de Janeiro Brazil,REAL,0,54,54,24.3753438,-4.3208436
+1960,Qtr 2,June,24,Brazil,Convair,Convair CV 340,Rio de Janeiro Brazil,REAL,0,54,54,-22.9055144,-43.0977136
 1960,Qtr 2,June,24,Brazil,Convair,Convair CV 340,Rio de Janeiro Brazil,REAL,0,54,54,-22.9110137,-43.2093727
 1960,Qtr 2,June,24,Brazil,Convair,Convair CV 340,Rio de Janeiro Brazil,REAL,0,54,54,-22.9068,-43.1729
 1958,Qtr 2,June,16,Brazil,Convair,Convair CV 440,Curitiba Brazil,Cruzeiro,0,21,26,-25.4295963,-49.2712724
 1954,Qtr 2,June,4,Brazil,Curtiss,Curtiss C 46APP,Sao Paulo Brazil,Varig,0,3,3,-23.5506507,-46.6333824
 1949,Qtr 2,June,7,Brazil,Douglas,Douglas C 47BC,Near Florianpolis Brazil,Force Air Brazilian - Military,0,27,27,49.4578405,-2.5349672
 1967,Qtr 2,June,15,Brazil,Douglas,Douglas C 47C,Near Coari Brazil,Force Air Brazilian - Military,0,20,25,36.6519754,-117.1138479
-1951,Qtr 2,June,6,Brazil,Douglas,Douglas DC 3DPP,Rio de Janeiro Brazil,Brasileira Trans. Aéreas Lineas,0,2,19,24.3753438,-4.3208436
+1951,Qtr 2,June,6,Brazil,Douglas,Douglas DC 3DPP,Rio de Janeiro Brazil,Brasileira Trans. Aéreas Lineas,0,2,19,-22.9055144,-43.0977136
 1951,Qtr 2,June,6,Brazil,Douglas,Douglas DC 3DPP,Rio de Janeiro Brazil,Brasileira Trans. Aéreas Lineas,0,2,19,-22.9110137,-43.2093727
 1951,Qtr 2,June,6,Brazil,Douglas,Douglas DC 3DPP,Rio de Janeiro Brazil,Brasileira Trans. Aéreas Lineas,0,2,19,-22.9068,-43.1729
 1977,Qtr 2,June,3,Brazil,Embraer,Embraer C 95 BandeiranteFAB2157,Natal Brazil,Force Air Brazilian - Military,0,18,18,-5.805398,-35.2080905
@@ -2781,7 +2781,7 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1958,Qtr 2,June,25,India,Douglas,Douglas C 47AVT,Mohanbari India,Airlines Indian,0,5,7,27.7385042,75.3292608
 1963,Qtr 2,June,3,India,Douglas,Douglas C 47VT,Pathankot India,Airlines Indian,0,29,29,32.3021899,75.65894063717977
 1979,Qtr 2,June,7,India,Hindustan Aeronautics,Hindustan Aeronautics 748 2MH2178,Near Leh India,Force Air Indian - Military,0,27,27,48.9351403,2.4258354
-1972,Qtr 2,June,14,India,McDonnell Douglas,McDonnell Douglas DC 8,Near New Delhi India,Lines Air Japan,4,82,87,48.8534951,2.3483915
+1972,Qtr 2,June,14,India,McDonnell Douglas,McDonnell Douglas DC 8,Near New Delhi India,Lines Air Japan,4,82,87,28.5603226,77.2667188
 1982,Qtr 2,June,24,Indonesia,Boeing,Boeing B 747G,Mount Galunggung Indonesia,Airways British,0,0,257,-7.2561523,108.0760925
 2008,Qtr 2,June,26,Indonesia,CASA,CASA NC 212A,Near Salak Mountain Indonesia,Force Air Indonesian - Military,0,18,18,47.2574315,3.6843003
 1993,Qtr 2,June,16,Indonesia,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 300PK,Nabire Indonesia,Airlines Nasantara Merpati,0,1,3,-3.360285,135.5023653
@@ -2985,7 +2985,7 @@ F",Off MoroccoAeropostale,Aeroflot,0,2,2,39.7675529,64.4231326
 1972,Qtr 2,June,29,Wisconsin,Convair,Convair CV 580/De Hav. Twin Otter 100N90858/N4043B,Appleton Wisconsin,Wisconsin Air / Airlines Central North,0,13,13,44.2613967,88.4069744
 2007,Qtr 2,June,4,Wisconson,Cessna 550 Citation,Cessna 550 Citation IIN550BP,Near Milwaukee Wisconson,System Health Michigan of University,0,6,6,35.2272086,80.8430827
 1951,Qtr 2,June,29,Yugoslavia,Junkers,Junkers 52/3mYU ACE,Near Rijeka Yugoslavia,Airlines Yugoslav JAT,0,14,14,35.3848841,77.9927651
-1991,Qtr 1,March,23,Russia,Antonov,Antonov AN 24BCCCP,Navoi,UzbekistanAeroflot,0,34,63,42.0,64.0
+1991,Qtr 1,March,23,Russia,Antonov,Antonov AN 24BCCCP,Navoi,UzbekistanAeroflot,0,34,63,55.7284758,37.6248739
 1956,Qtr 1,March,31,'-,Douglas,Douglas C 47AL2,Korat  -,Force Air Thai Royal,0,19,19,54.596391,5.9301829
 1960,Qtr 1,March,17,10,Lockheed 188C,Lockheed 188C ElectraN121US,Near Cannelton 10,Indiana      City Tell of SE mile Northwest Orient Airlines,0,63,63,36.2659698,95.8548557
 1998,Qtr 1,March,19,Afghanistan,Boeing,Boeing B 727,Near Charasyab Afghanistan,Airlines Afghan Ariana,0,45,45,42.9832406,81.243372
@@ -3087,7 +3087,7 @@ Bakou",Azerbaijan Azov Avia Airlines,0,3,7,10.28827565,123.97239768282294
 1965,Qtr 1,March,22,Colombia,Douglas,Douglas C 47HK,Sugar Loaf Mountain Colombia,Avianca,0,28,28,13.4420205,-22.4459786
 1948,Qtr 1,March,15,Colombia,Douglas,Douglas DC 3 (C47,Villa Pinzon Colombia,Aviada de Interamericana Agencia,0,14,14,4.4466742,-75.2159368
 1999,Qtr 1,March,18,Colombia,Douglas,Douglas DC 3C (C,Near Tame Colombia,Colombia ALIANSA,8,8,8,27.8902032,-107.253901
-1964,Qtr 1,March,8,Colombia,Douglas,Douglas DC 3HK,Bogota Colombia,Santander de Aereo Taxi,0,28,28,-34.0845443,-151.1512348
+1964,Qtr 1,March,8,Colombia,Douglas,Douglas DC 3HK,Bogota Colombia,Santander de Aereo Taxi,0,28,28,4.662332,-74.0674358
 1964,Qtr 1,March,8,Colombia,Douglas,Douglas DC 3HK,Bogota Colombia,Santander de Aereo Taxi,0,28,28,4.6533816,-74.0836333
 1957,Qtr 1,March,9,Colombia,Douglas,Douglas DC 3HK,El Soldado Colombia,Avianca,0,15,15,-2.9888243,-104.7568507
 2019,Qtr 1,March,9,Colombia,Douglas,Douglas DC 3HK,Vereda La Bendicion Colombia,Colombia Aereo Laser,0,14,14,7.9704923,-72.5293592
@@ -3219,7 +3219,7 @@ Bakou",Azerbaijan Azov Avia Airlines,0,3,7,10.28827565,123.97239768282294
 1986,Qtr 1,March,31,Mexico,Boeing,Boeing B 727,Maravatio Mexico,Mexicana,0,167,167,19.89014525,-100.45327318434052
 1998,Qtr 1,March,31,Mexico,Convair,Convair CV 240,Near Mexico City Mexico,Carga de Mexicana Aérea Linea,0,2,4,49.4300997,-2.0823355
 1955,Qtr 1,March,8,Mexico,Douglas,Douglas DC 3XA,Mascota Mexico,Mexicana,0,26,26,20.5533013,-104.76338164381984
-1954,Qtr 1,March,26,Mexico,Douglas,Douglas DC 3XA,Monterrey Mexico,Mexico de Aeronaves,0,18,18,-33.525743,-70.5808301
+1954,Qtr 1,March,26,Mexico,Douglas,Douglas DC 3XA,Monterrey Mexico,Mexico de Aeronaves,0,18,18,25.6444295,-100.2950157
 1936,Qtr 1,March,26,Mexico,Ford,Ford 5 AT,Amemeca Mexico,Mexicana,0,14,14,-17.6097686,-18.6223286
 1987,Qtr 1,March,4,Michigan,CASA 212 Aviocar,CASA 212 Aviocar 200N160FB,Detroit Michigan,Airlink Northwest,0,9,22,42.3315509,83.0466403
 1986,Qtr 1,March,13,Michigan,Embraer 110P1,Embraer 110P1 BandeiranteN1356P,Alpena Michigan,Airlines Simmons,0,3,9,45.0176181,83.6670019
@@ -3405,7 +3405,7 @@ Bakou",Azerbaijan Azov Avia Airlines,0,3,7,10.28827565,123.97239768282294
 1952,Qtr 1,March,29,Venezuela,Douglas,Douglas DC 3YV,Near San Felipe Venezuela,TACA,0,12,12,36.2974945,-59.6059232
 1991,Qtr 1,March,5,Venezuela,McDonnell Douglas,McDonnell Douglas DC 9,La Puerta Venezuela,Venezolana Aeropostal Linea,0,45,45,9.1262137,-70.7110746
 1974,Qtr 1,March,8,Vietnam,Antonov,Antonov An 24XW,Hanoi Vietnam,Airlines Lao Pathet,0,18,18,21.0283334,105.854041
-1950,Qtr 1,March,10,Vietnam,Bristol 170 Freighter,Bristol 170 Freighter 21F BECR,Saigon Vietnam,Aeriens Transport de Indochinoise Societe,0,4,4,48.8825559,2.3241735
+1950,Qtr 1,March,10,Vietnam,Bristol 170 Freighter,Bristol 170 Freighter 21F BECR,Saigon Vietnam,Aeriens Transport de Indochinoise Societe,0,4,4,10.9249691,106.7251678
 1953,Qtr 1,March,17,Vietnam,Douglas,Douglas DC 3F,Off Da Nang Vietnam,Azur Aigle,0,8,8,36.0156291,49.8398161
 1963,Qtr 1,March,15,Volcano,Douglas,Douglas DC 6BCP,Near Tacora Volcano,Peru Lloyd Aereo Boliviano,0,39,39,52.2757233,10.2429647
 1987,Qtr 1,March,13,Washington,Boeing,Boeing KC 13560,Spokane Washington,Force Air U.S. - Military,1,6,6,47.6571934,117.42351
@@ -3452,7 +3452,7 @@ Bakou",Azerbaijan Azov Avia Airlines,0,3,7,10.28827565,123.97239768282294
 1962,Qtr 2,May,9,Brazil,Convair,Convair CV 240,Vitoria Brazil,Cruzeiro,0,23,25,-20.3200917,-40.3376682
 1963,Qtr 2,May,3,Brazil,Convair,Convair CV 340,Sao Paulo Brazil,Cruzeiro,0,37,50,-23.5506507,-46.6333824
 1952,Qtr 2,May,24,Brazil,Curtiss,Curtiss C 46APP,Near Manaus Brazil,Nacional Aéreo Loide,0,6,6,18.9910971,-73.12058456241039
-1958,Qtr 2,May,31,Brazil,Curtiss,Curtiss C 46DPP,Rio de Janeiro Brazil,Aéreos Transportes Paraense,0,4,4,24.3753438,-4.3208436
+1958,Qtr 2,May,31,Brazil,Curtiss,Curtiss C 46DPP,Rio de Janeiro Brazil,Aéreos Transportes Paraense,0,4,4,-22.9055144,-43.0977136
 1958,Qtr 2,May,31,Brazil,Curtiss,Curtiss C 46DPP,Rio de Janeiro Brazil,Aéreos Transportes Paraense,0,4,4,-22.9110137,-43.2093727
 1958,Qtr 2,May,31,Brazil,Curtiss,Curtiss C 46DPP,Rio de Janeiro Brazil,Aéreos Transportes Paraense,0,4,4,-22.9068,-43.1729
 1964,Qtr 2,May,27,Brazil,Douglas,Douglas C 47,Itapecerica da Serra Brazil,VASP,0,3,3,-23.7176303,-46.8492435
@@ -3501,8 +3501,8 @@ Florianopolis",BrazilFlorianopolis,0,1,5,46.0386716,67.959596
 2003,Qtr 2,May,8,Congo,Illyushin,Illyushin 76UR UCB,Near Kinshasa Congo,Charter Army Congolese  - Airlines Cargo Ukrainian,0,129,200,19.0303263,97.2698195
 2007,Qtr 2,May,17,Congo,Let,Let 410UVPTN AHE,Walikale Airstrip Congo,Complany Air Safe,0,3,3,42.0964314,83.2918744
 1988,Qtr 2,May,26,Costa,Douglas,Douglas DC 6YN,Puerto Limon Costa,RicaAeronica,0,6,6,51.53345965,-0.3827263014005531
-2018,Qtr 2,May,18,Cuba,Boeing,Boeing 737 201XA,Havana Cuba,Air) Global from (leased Cubana,0,112,113,22.1883069,-113.5493076
-1977,Qtr 2,May,27,Cuba,Ilyushin,Ilyushin IL 62MCCCP,Havana Cuba,Aeroflot,0,67,69,22.1883069,-113.5493076
+2018,Qtr 2,May,18,Cuba,Boeing,Boeing 737 201XA,Havana Cuba,Air) Global from (leased Cubana,0,112,113,23.1367092,-82.3516096
+1977,Qtr 2,May,27,Cuba,Ilyushin,Ilyushin IL 62MCCCP,Havana Cuba,Aeroflot,0,67,69,23.1367092,-82.3516096
 2009,Qtr 2,May,26,Democratic,Antonov,Antonov AN 269Q,Near Isiro Democratic,Air CongoService Republic,0,4,4,44.0839937,93.2261076
 2005,Qtr 2,May,5,Democratic,Antonov,Antonov AN 26EK,Near Kisangani Democratic,Airlift CongoKisangani Republic,0,10,11,33.4951269,90.3229458
 1986,Qtr 2,May,18,Djibouti,Dassault Breguet,Dassault Breguet Atlantique19,Djibouti Djibouti,Aviation Naval French - Military,0,19,19,11.8145966,42.8453061
@@ -3551,7 +3551,7 @@ Florianopolis",BrazilFlorianopolis,0,1,5,46.0386716,67.959596
 1947,Qtr 2,May,4,Guanacaste,Lockheed 18,Lockheed 18 LoadstarTI 84,Near Nicoya Guanacaste,Costa Rica TACA,0,11,11,50.533333,56.283333
 1971,Qtr 2,May,11,Guatemala,Curtiss,Curtiss C 46A,Guatemala City Guatemala,Aviateca,0,5,35,14.6416142,-90.5132836
 1956,Qtr 2,May,24,Guatemala,Douglas,Douglas C 47,Guatemala City Guatemala,Aviateca,0,30,31,14.6416142,-90.5132836
-1990,Qtr 2,May,5,Guatemala,Douglas,Douglas DC 6BFN84BL,Guatamala City  Guatemala,Company Transit Aerial,24,3,3,35.3187279,-82.4609528
+1990,Qtr 2,May,5,Guatemala,Douglas,Douglas DC 6BFN84BL,Guatamala City  Guatemala,Company Transit Aerial,24,3,3,14.6297388,-90.5112998
 2000,Qtr 2,May,3,Guyana,Britten,Britten  Norman BN,Kurupung Guyana,Airways Guyana Trans,0,1,1,6.246536284526453,-60.14157858303776
 1957,Qtr 2,May,1,Hants,Vickers Viking,Vickers Viking 1BG AJBO,Blackbushe Hants,England Eagle Aviation,0,34,35,33.8278405,78.6800323
 2000,Qtr 2,May,10,Hawaii,Rockwell Sabreliner,Rockwell Sabreliner 65N241H,Kaunakakai Hawaii,Company Aircraft Price,0,6,6,21.0906247,157.0208436
@@ -3565,7 +3565,7 @@ Florianopolis",BrazilFlorianopolis,0,1,5,46.0386716,67.959596
 1935,Qtr 2,May,28,Illinois,Stinson SM6000B,Stinson SM6000B Tri motorNC10894,Maywood Illinois,Airlines Southern and Chicago,0,2,2,41.8789942,87.8436412
 1958,Qtr 2,May,25,India,Avro 685 York,Avro 685 York C 1G,Gurgaon India,Services Dan-Air,0,4,5,28.4646148,77.0299194
 2010,Qtr 2,May,22,India,Boeing,Boeing 737 8HGVT,Mangalore India,Express India Air,0,159,166,12.8698101,74.8430082
-1973,Qtr 2,May,31,India,Boeing,Boeing B 737,Near New Delhi India,Airlines Indian,0,48,65,48.8534951,2.3483915
+1973,Qtr 2,May,31,India,Boeing,Boeing B 737,Near New Delhi India,Airlines Indian,0,48,65,28.5603226,77.2667188
 1958,Qtr 2,May,15,India,Convair,Convair CV 240,New Delhi India,Airlines International Pakistan,2,21,38,28.64308585,77.21926705734865
 1968,Qtr 2,May,28,India,Convair,Convair CV 990,Near Bombay India,Airlines Indonesia Garuda,1,29,29,22.0724145,14.445243230160033
 1957,Qtr 2,May,5,India,Douglas,Douglas C 47AVT,Santoshpur India,Airlines Indian,0,1,3,22.5240566,88.2710655
@@ -3812,7 +3812,7 @@ De Havilland DH",Rock Springs Wyoming,Service Mail Aerial US,0,1,1,41.5860557,10
 1934,Qtr 4,November,15,Australia,De Havilland,de Havilland DH 86VH,Near Longreach Australia,Qantas,0,4,4,34.261004,108.9423363
 1948,Qtr 4,November,8,Australia,Douglas,Douglas DC 3VH,Mt. Macedon Australia,Airways National Australian,0,3,23,-37.3902615,144.59074126191737
 2003,Qtr 4,November,8,Australia,Robertson R44,Robertson R44 helicopterVH YKL,200 miles NE of Derby Australia,Taxi Air - Ltd. Pty WA Heliwork,0,4,4,30.1875746,117.5942216
-1995,Qtr 4,November,30,Azerbaijan,Boeing,Boeing 707 323C4K,Baku Azerbaijan,Airlines Azerbaijan,0,2,6,70.6369444,160.038333
+1995,Qtr 4,November,30,Azerbaijan,Boeing,Boeing 707 323C4K,Baku Azerbaijan,Airlines Azerbaijan,0,2,6,40.3698533,49.8346715
 1995,Qtr 4,November,30,Azerbaijan,Boeing,Boeing 707 323C4K,Baku Azerbaijan,Airlines Azerbaijan,0,2,6,40.3755885,49.8328009
 1995,Qtr 4,November,30,Azerbaijan,Boeing,Boeing 707 323C4K,Baku Azerbaijan,Airlines Azerbaijan,0,2,6,40.4093,49.8671
 2009,Qtr 4,November,29,BC,de Havilland Canada,de Havilland Canada DHC 2 Beaver MK,Lyall Harbour BC,Canada Seair Seaplanes,0,6,8,48.7995331,123.19281928157464
@@ -3828,7 +3828,7 @@ De Havilland DH",Rock Springs Wyoming,Service Mail Aerial US,0,1,1,41.5860557,10
 1991,Qtr 4,November,11,Brazil,Embraer 110P1,Embraer 110P1 BandeirantePT SCU,Recife Brazil,Aereas Linhas Nordeste,2,15,15,-8.0584933,-34.8848193
 1967,Qtr 4,November,3,Brazil,Handley Page,Handley Page HPR 7 Herald 214PP,Near Curitiba Brazil,Sadia,0,21,25,39.900937,-79.725931
 1930,Qtr 4,November,7,Brazil,Junkers,Junkers G 24P,Off of Santos Brazil,Condor Syndicato,0,1,9,-8.7351826,-25.0032201
-1940,Qtr 4,November,8,Brazil,Junkers,Junkers Ju53/2mPP SPF,Rio de Janeiro Brazil,VASP,0,18,18,24.3753438,-4.3208436
+1940,Qtr 4,November,8,Brazil,Junkers,Junkers Ju53/2mPP SPF,Rio de Janeiro Brazil,VASP,0,18,18,-22.9055144,-43.0977136
 1940,Qtr 4,November,8,Brazil,Junkers,Junkers Ju53/2mPP SPF,Rio de Janeiro Brazil,VASP,0,18,18,-22.9110137,-43.2093727
 1940,Qtr 4,November,8,Brazil,Junkers,Junkers Ju53/2mPP SPF,Rio de Janeiro Brazil,VASP,0,18,18,-22.9068,-43.1729
 1935,Qtr 4,November,2,Brazil,Latécoère,Latécoère 28 1F,Off Nhambupe Brazil,France Air,0,4,4,1.2701851,-30.016639254441905
@@ -3862,7 +3862,7 @@ De Havilland DH",Rock Springs Wyoming,Service Mail Aerial US,0,1,1,41.5860557,10
 1933,Qtr 4,November,20,China,Stinson?,Stinson?,Near Tsinan China,Corporation Aviation National China,0,8,8,52.6071742,1.7314845
 2016,Qtr 4,November,28,Colombia,Avro,Avro RJ 85CP,Near La Union Colombia,Bolivia LAMIA,0,71,77,26.3586885,-80.0830984
 2006,Qtr 4,November,18,Colombia,Boeing,Boeing 727 23FHK,Near Leticia Colombia,Colombia Aerosucre,0,5,5,47.7286566,-7.4164754
-1989,Qtr 4,November,27,Colombia,Boeing,Boeing B 727,Bogota Colombia,Avianca,3,107,107,-34.0845443,-151.1512348
+1989,Qtr 4,November,27,Colombia,Boeing,Boeing B 727,Bogota Colombia,Avianca,3,107,107,4.662332,-74.0674358
 1989,Qtr 4,November,27,Colombia,Boeing,Boeing B 727,Bogota Colombia,Avianca,3,107,107,4.6533816,-74.0836333
 1990,Qtr 4,November,18,Colombia,CASA 212 Aviocar,CASA 212 Aviocar 200FAC 1150,Near Medellin Colombia,Satena,0,16,16,26.5707754,-128.0255901
 1966,Qtr 4,November,26,Colombia,Consolidated,Consolidated  PBY 5A CatalinaFAC,Near La Pedrera Colombia,Satena,0,12,13,43.629978,-1.360809880743464
@@ -3929,11 +3929,11 @@ De Havilland DH",Rock Springs Wyoming,Service Mail Aerial US,0,1,1,41.5860557,10
 1956,Qtr 4,November,24,France,Douglas,Douglas DC 6BI,Paris France,Italiane Aeree Linee,8,34,35,48.8534951,2.3483915
 1951,Qtr 4,November,13,France,Fairchild,Fairchild C 82 Packet45,Puy-de-Dôme France,Force Air S. U. - Military,0,36,36,45.7715343,3.0839934206717934
 1927,Qtr 4,November,8,France,Farman,Farman F 121 JabiruF,Strasburg France,CIDNA,0,1,1,48.584614,7.7507127
-1925,Qtr 4,November,14,France,Farman,Farman F 60 GoliathF,Off Boulogne-sur-Mer France,Union Air,0,2,2,22.05038375,159.55886239302424
+1925,Qtr 4,November,14,France,Farman,Farman F 60 GoliathF,Off Boulogne-sur-Mer France,Union Air,0,2,2,50.5147177,1.6374135
 1962,Qtr 4,November,23,France,Ilyushin,Ilyushin IL 18DHA,Le Bourget France,Airlines Hungarian Malev,0,21,21,48.9351403,2.4258354
 1947,Qtr 4,November,13,France,Junkers,Junkers Ju 52/3mF,Near Bouchox France,Aérienne Navigation de Auxiliare Société,0,2,2,19.4297676,155.233984
 1935,Qtr 4,November,11,France,Latecoere,Latecoere 28F AJPB,Istres France,France Air,0,3,3,43.5139051,4.9884323
-1929,Qtr 4,November,16,France,Liore et Olivier,Liore et Olivier 190F AIGB,Off Corsica France,Union Air,0,3,3,22.3301046,114.19894916986036
+1929,Qtr 4,November,16,France,Liore et Olivier,Liore et Olivier 190F AIGB,Off Corsica France,Union Air,0,3,3,42.6617653,9.2370743
 1950,Qtr 4,November,3,France,Lockheed 749,Lockheed 749 ConstellationVT CQP,Mont Blanc France,India Air,0,48,48,45.8327056,6.8651706
 1977,Qtr 4,November,26,France,Nord 2501,Nord 2501 Noratlas182,Near Beziers France,Force Air French - Military,0,32,32,42.0700662,87.8114044
 1988,Qtr 4,November,18,France,Swearingen,Swearingen SA 226TC Metro IIF,Montluçon France,Littoral Air,0,4,4,46.3400296,2.6073963
@@ -4105,7 +4105,7 @@ NC1062",Corunna Indiana,Transport Air National,0,1,1,41.4372721,85.1471934
 1969,Qtr 4,November,9,Ontario,Douglas,Douglas C 47BCF,Timmins Ontario,Canada Austin Airways,0,2,4,48.477473,81.330414
 2013,Qtr 4,November,10,Ontario,Swearingen,Swearingen SA227 AC Metro IIC,Red Lake Ontario,Canada Bearskin Airlines,0,5,7,51.018938,93.827362
 1933,Qtr 4,November,9,Oregon,Boeing,Boeing 247NC13345,Portland Oregon,Lines Air United,0,4,10,45.5202471,122.674194
-2010,Qtr 4,November,5,Pakistan,Beechcraft,Beechcraft 1900C 1AP,Near Karachi Pakistan,Air JS,0,21,21,-17.831773,31.045686
+2010,Qtr 4,November,5,Pakistan,Beechcraft,Beechcraft 1900C 1AP,Near Karachi Pakistan,Air JS,0,21,21,24.9234176,67.0578025
 1948,Qtr 4,November,26,Pakistan,Douglas,Douglas DC 3AP,Vehari Pakistan,Airways Pakistan,0,21,21,30.04804175,72.35635188697299
 2010,Qtr 4,November,28,Pakistan,Ilyushin,Ilyushin Il 76TD4L,Karachi Pakistan,Way Sun,4,8,8,24.9216143,67.1546212
 2001,Qtr 4,November,22,Pennsylvania,Learjet,Learjet 25BN5UJ,Pittsburgh Pennsylvania,Aviation Jet Universal,0,2,2,40.3693889,80.6243098
@@ -4258,7 +4258,7 @@ NC1062",Corunna Indiana,Transport Air National,0,1,1,41.4372721,85.1471934
 1945,Qtr 4,October,20,Atlantic,Douglas,Douglas C 47BA65,Timor Sea Atlantic,Force Air Australian Royal - OceanMilitary,0,25,25,51.0538286,3.7250121
 1934,Qtr 4,October,3,Australia,De Havilland,de Havilland DH 50AVH,Near Winton Australia,Qantas,0,3,3,51.0333408,2.8647185
 1934,Qtr 4,October,19,Australia,De Havilland,de Havilland DH 86VH,Bass Strait Australia,Airways Holymans,0,11,11,-34.678789560867564,150.85410273223093
-1930,Qtr 4,October,13,Australia,de Havilland DH.80 Puss,de Havilland DH.80 Puss MothVH UPC,Perth Australia,Ltd Wings,0,3,3,64.6178042,162.2624238
+1930,Qtr 4,October,13,Australia,de Havilland DH.80 Puss,de Havilland DH.80 Puss MothVH UPC,Perth Australia,Ltd Wings,0,3,3,-31.9583861,115.8645238
 1930,Qtr 4,October,13,Australia,de Havilland DH.80 Puss,de Havilland DH.80 Puss MothVH UPC,Perth Australia,Ltd Wings,0,3,3,-31.9558933,115.8605855
 1930,Qtr 4,October,13,Australia,de Havilland DH.80 Puss,de Havilland DH.80 Puss MothVH UPC,Perth Australia,Ltd Wings,0,3,3,-31.9505,115.8605
 1938,Qtr 4,October,25,Australia,Douglas,Douglas DC 2,Mt. Dandenong Australia,Airways National Australian,0,18,18,-37.8361703,145.3509803
@@ -4449,7 +4449,7 @@ NC1062",Corunna Indiana,Transport Air National,0,1,1,41.4372721,85.1471934
 1957,Qtr 4,October,30,Mexico,Fairchild,Fairchild C 82AXA,Near Campeche Mexico,Mexicanos Aereos Transportes,0,3,3,22.223611,-159.485278
 2003,Qtr 4,October,27,Mexico,Hawker,Hawker 800AXA ISH,Tampico Mexico,Aeroextra,0,3,3,22.27010965,-97.89486735598555
 1979,Qtr 4,October,31,Mexico,McDonnell Douglas,McDonnell Douglas DC 10,Mexico City Mexico,Airlines Western,1,72,88,19.3207722,-99.1514677512441
-2000,Qtr 4,October,6,Mexico,McDonnell Douglas,McDonnell Douglas DC 9,Reynosa Mexico,Aeromexico,4,0,88,26.0907673,-98.2788191
+2000,Qtr 4,October,6,Mexico,McDonnell Douglas,McDonnell Douglas DC 9,Reynosa Mexico,Aeromexico,4,0,88,26.0140823,-98.3936226
 1988,Qtr 4,October,11,Michigan,Boeing,Boeing KC 135A60,Wurtsmith AFB Michigan,Force Air U.S. - Military,0,6,17,21.48343645,158.03648372697478
 1941,Qtr 4,October,30,Minnesota,Douglas,Douglas DC 3NC21712,Near Moorhead Minnesota,Airlines Orient Northwest,0,14,15,14.4249905,88.9660592
 1950,Qtr 4,October,13,Minnisota,Martin,Martin 202NC93037,Almelund Minnisota,Airlines Orient Northwest,0,6,6,22.2676649,114.2111196
@@ -4528,7 +4528,7 @@ NC1062",Corunna Indiana,Transport Air National,0,1,1,41.4372721,85.1471934
 1941,Qtr 4,October,30,Ontario,Douglas,Douglas DC 3NC25663,St. Thomas Ontario,Canada American Airlines,0,20,20,42.779022,81.1929882
 1966,Qtr 4,October,1,Oregon,McDonnell Douglas,McDonnell Douglas DC 9,Near Wemme Oregon,Airlines Coast West,0,18,18,46.0131505,112.536508
 1965,Qtr 4,October,8,Pakistan,Fokker,Fokker F 27 Friendship 200AP,Near Patian Pakistan,Airlines International Pakistan,0,4,4,34.02236,6.8340222
-1986,Qtr 4,October,23,Pakistan,Fokker,Fokker F 27 Friendship 600AP,Near Peshawar Pakistan,Airlines International Pakistan,0,13,54,-12.9735551,40.5215098
+1986,Qtr 4,October,23,Pakistan,Fokker,Fokker F 27 Friendship 600AP,Near Peshawar Pakistan,Airlines International Pakistan,0,13,54,33.964065,71.4466119
 2011,Qtr 4,October,13,Papua,de Havilland Canada,de Havilland Canada DHC 8,Near Madang Papua,PNG GuineaAirline New,0,28,32,-38.1077388958253,144.3306399618172
 1970,Qtr 4,October,4,Pennsylvania,Aero Commander,Aero Commander 500 BN701X,Mahaffey Pennsylvania,Private,0,2,2,40.8728411,78.724196
 1971,Qtr 4,October,24,Pennsylvania,Beechcraft,Beechcraft B99N986MA,Bath Pennsylvania,Airways Monmouth,0,4,8,40.726519,75.3934911
@@ -4608,7 +4608,7 @@ F",Gerona Spain,Aeropostale,0,3,3,41.9793006,2.8199439
 1920,Qtr 4,October,5,Spain,Breguet,Breguet 14F ALTA,Valencia Spain,Airlines Latecoere,0,2,2,39.4697065,-0.3763353
 1947,Qtr 4,October,16,Spain,Bristol 170 Freighter,Bristol 170 Freighter IF BCJN,Off Cartegena Spain,Littoral du Aerienne Societe,0,41,43,54.4710926,17.1160575
 1962,Qtr 4,October,12,Spain,Convair,Convair CV 440,Near Carmona Spain,Airlines Iberia,0,18,18,-33.4415465,70.6324624
-1957,Qtr 4,October,28,Spain,Douglas,Douglas DC 3EC,Madrid Spain,Airlines Iberia,0,21,21,9.2617815,125.9637534
+1957,Qtr 4,October,28,Spain,Douglas,Douglas DC 3EC,Madrid Spain,Airlines Iberia,0,21,21,40.4171553,-3.7058355
 2001,Qtr 4,October,10,Spain,Swearingen,Swearingen SA 226AT Merlin IVEC,Off Valencia Spain,Flightline,0,10,10,25.25754195,51.57210363956301
 2012,Qtr 4,October,7,Sudan,Antonov,Antonov An 12BPST,Near Omdurman Sudan,Force Air Sudanese - Military,0,15,22,-24.9071275,146.33124025447535
 2004,Qtr 4,October,5,Sudan,Antonov,Antonov AN 12ST,Kaduqli Sudan,Airlines Sarit,0,4,4,11.0085934,29.7155751
@@ -4777,13 +4777,13 @@ F",Gerona Spain,Aeropostale,0,3,3,41.9793006,2.8199439
 1983,Qtr 3,September,14,China,Hawker Siddeley Trident 2E /,Hawker Siddeley Trident 2E /  II 28B,Guilin China,CAAC,0,11,106,25.2779894,110.2910622
 1975,Qtr 3,September,30,Colombia,Boeing,Boeing 727 24CHK,Barranquilla Colombia,Avianca,0,4,4,11.0101922,-74.8231794084391
 1995,Qtr 3,September,9,Colombia,CASA 212 Aviocar,CASA 212 Aviocar 200FAC1152,Near La Macarena Colombia,SAETA,0,21,22,-41.1334781,-71.3101474
-1992,Qtr 3,September,19,Colombia,Curtiss,Curtiss C 46F,Bogota Colombia,Colombia Avesca,0,11,11,-34.0845443,-151.1512348
+1992,Qtr 3,September,19,Colombia,Curtiss,Curtiss C 46F,Bogota Colombia,Colombia Avesca,0,11,11,4.662332,-74.0674358
 1992,Qtr 3,September,19,Colombia,Curtiss,Curtiss C 46F,Bogota Colombia,Colombia Avesca,0,11,11,4.6533816,-74.0836333
 1964,Qtr 3,September,15,Colombia,Douglas,Douglas C 47AHK,Near Condoto Colombia,Avianca,0,2,2,35.270085,-91.6398575
 2000,Qtr 3,September,2,Colombia,Douglas,Douglas C 47FAC1659,Mount Montezuma Colombia,Colombiana Aérea Fuerza - Military,0,7,7,-37.8752637,-145.1281258
 1980,Qtr 3,September,10,Colombia,Douglas,Douglas C 47HK,Puerto Olaya Colombia,Colombia Aeronorte,0,3,3,6.503312,-74.3521799
 1969,Qtr 3,September,8,Colombia,Douglas,Douglas DC 3FAC,Near Medina Colombia,Satena,0,32,32,-32.995304799735926,-137.54380460183356
-1966,Qtr 3,September,22,Colombia,Douglas,Douglas DC 4HK,Bogota Colombia,Avianca,0,2,2,-34.0845443,-151.1512348
+1966,Qtr 3,September,22,Colombia,Douglas,Douglas DC 4HK,Bogota Colombia,Avianca,0,2,2,4.662332,-74.0674358
 1966,Qtr 3,September,22,Colombia,Douglas,Douglas DC 4HK,Bogota Colombia,Avianca,0,2,2,4.6533816,-74.0836333
 1981,Qtr 3,September,2,Colombia,Embraer 110P1,Embraer 110P1 BandeiranteHK 2651,Paipa Colombia,Venado el Aereo,0,21,22,5.7812701,-73.1176532
 1936,Qtr 3,September,28,Colorado,Lockheed  5,Lockheed  5 VegaNC176W,Walsenberg Colorado,Lines Air Varney,0,3,3,54.3126572,130.32549
@@ -4819,7 +4819,7 @@ NC52",Willington Connecticut,Transport Air Colonial,0,1,1,41.874428,72.2598935
 1958,Qtr 3,September,2,England,Vickers 621 Viking,Vickers 621 Viking 1G AIJE,London England,Travel Air Independent,4,3,3,51.4893335,-0.1440550845276872
 1916,Qtr 3,September,24,England,Zeppelin,Zeppelin L 32 (airship)?,Billericay England,Navy German - Military,0,22,22,51.6284395,0.4218142
 1988,Qtr 3,September,15,Ethiopia,Boeing,Boeing B 737,Bahar Dar Ethiopia,Airlines Ethiopian,0,35,104,11.5949663,37.3882251
-1975,Qtr 3,September,11,Ethiopia,Douglas,Douglas C 47,Near Bahar Dar Ethiopia,Airlines Ethiopian,0,1,9,38.05586225,122.5184047170178
+1975,Qtr 3,September,11,Ethiopia,Douglas,Douglas C 47,Near Bahar Dar Ethiopia,Airlines Ethiopian,0,1,9,11.6099428,37.3776192
 1972,Qtr 3,September,10,Ethiopia,Douglas,Douglas DC 3ET,Gondar Ethiopia,Airlines Ethiopian,0,11,11,12.610368,37.466766
 1965,Qtr 3,September,14,Ethiopia,Douglas,Douglas DC 3ET,Gore Ethiopia,Airlines Ethiopian,0,17,17,8.1525979,35.5371154
 1961,Qtr 3,September,5,Ethiopia,Douglas,Douglas DC 3ET,Near Sendafar Ethiopia,Airlines Ethiopian,0,5,19,37.7648021,121.9544387
@@ -4927,7 +4927,7 @@ NC52",Willington Connecticut,Transport Air Colonial,0,1,1,41.874428,72.2598935
 1998,Qtr 3,September,25,Morroco,British Aerospace,British Aerospace BAe 146,Near Nador Morroco,Air Paukn,0,38,38,53.7408705,7.485916907277579
 1985,Qtr 3,September,22,Russia,Antonov,Antonov AN 12?,AfghanistanMilitary - Soviet Air Force,Aeroflot,0,26,26,48.7784485,9.1800132
 1998,Qtr 3,September,2,Russia,Antonov,Antonov AN 26RA,AngolaPermaviatrans,Aeroflot,0,24,24,51.2029228,7.3571392
-1989,Qtr 3,September,28,Russia,Antonov,Antonov An 32CCCP,Semyonovka,Aeroflot,0,9,9,40.6589683,44.9005908
+1989,Qtr 3,September,28,Russia,Antonov,Antonov An 32CCCP,Semyonovka,Aeroflot,0,9,9,51.155375,35.4966982
 1958,Qtr 3,September,29,Russia,Avro 685 York,Avro 685 York IOD ADB,Over the Mediterranean SeaMiddle East Airlines,Aeroflot,0,5,5,49.7780356,9.94347690712558
 1936,Qtr 3,September,25,Russia,Boulton and Paul,Boulton and Paul P 71G,English ChannelImperial Airways,Aeroflot,0,2,2,40.8213963,14.4261967
 1977,Qtr 3,September,2,Russia,Canadair,Canadair CL 44D4,Off Hong KongTransmeridian Air Cargo,Aeroflot,0,4,4,10.103348,85.41529423211631
@@ -4997,7 +4997,7 @@ AfghanistanMilitary - Afghan Republican Air Force",Aeroflot,0,26,26,22.5240566,8
 1988,Qtr 3,September,19,Pakistan,Antonov,Antonov AN 26?,Near Miram Pakistan,Force Air Republican Afghan - Military,0,34,34,29.4066079,90.7005025
 1986,Qtr 3,September,5,Pakistan,Boeing,Boeing B 747,Karachi Pakistan,Airways World American Pan,1,16,384,24.9216143,67.1546212
 1998,Qtr 3,September,10,Pakistan,Lockheed,Lockheed C 130B Hercules24143,Islamabad Pakistan,Force Air Pakistan - Military,0,5,5,33.6938118,73.0651511
-1952,Qtr 3,September,10,Panama,Curtiss,Curtiss C 46?,San Blas Panama,Colombia SAM,0,46,46,9.1875975,-77.87137226376693
+1952,Qtr 3,September,10,Panama,Curtiss,Curtiss C 46?,San Blas Panama,Colombia SAM,0,46,46,8.9517389,-79.535851
 1935,Qtr 3,September,13,Panama,Ford,Ford Tri Motor?,Near Tambo Panama,Airways Panama,0,8,8,40.4733176,-3.5798446
 1984,Qtr 3,September,6,Papua,Britten,Britten  Norman BN,Mt. Musaka Papua,New Guinea Talair,0,9,11,44.1048327,69.1091823
 2014,Qtr 3,September,20,Papua,de Havilland Canada,de Havilland Canada DHC 6 Twin Otter 300P2,Near Port Moresby Papua,GuineaHevlift New,0,4,9,48.4283182,123.364953

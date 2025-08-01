@@ -378,4 +378,3 @@ def update_table(year_range, selected_operators, fatalities_range):
 # Run
 if __name__ == '__main__':
     app.run(debug=True)
-
