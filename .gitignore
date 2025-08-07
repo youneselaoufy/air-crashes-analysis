@@ -1,13 +1,91 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg-info/
+*.ipynb_checkpoints
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
 # Virtual Environment
 .venv/
 env/
+ENV/
+venv/
+pip-wheel-metadata/
 
-# Python
-__pycache__/
-*.py[cod]
-*.ipynb_checkpoints
-*.DS_Store
+# VS Code and IDE config
+.vscode/
+.idea/
+*.swp
 
-# Data files
+# OS Files
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Node.js (if used)
+# -----------------------------
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# -----------------------------
+# Dash, Flask, Plotly App Files
+# -----------------------------
+*.log
+
+# -----------------------------
+# Data Files (sensitive or heavy)
+# -----------------------------
 data/*.csv
 data/*.zip
+data/raw/
+data/processed/
+data/cache/
+*.sqlite
+*.db
+
+# Optional: If you want to keep only final dataset version
+# !data/processed/cleaned_aircrashes_geo_FINAL.csv
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# Deployment/Build
+# -----------------------------
+__pycache__/
+dist/
+build/
+*.egg
+*.manifest
+*.spec
+*.bak
+*.tmp
+
+# System Reports
+coverage/
+htmlcov/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.tox/
+
+# -----------------------------
+# Mac/Linux Executables
+# -----------------------------
+*.out
+*.o
+*.a
+*.dSYM/
+*.exe
