@@ -5,7 +5,7 @@ import plotly.express as px
 from dash import Dash, dcc, html, Input, Output , dash_table
 
 # Load and prepare data
-df = pd.read_csv("../data/processed/cleaned_aircrashes_with_geo.csv")
+df = pd.read_csv("../data/processed/cleaned_aircrashes_geo_FIXED.csv")
 # Combine Year, Month, Day into a proper datetime
 df['Date'] = pd.to_datetime(dict(
     year=df['Year'],
