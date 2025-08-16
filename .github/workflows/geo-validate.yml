@@ -1,0 +1,49 @@
+name: Geo Validation (fix coords to trusted label)
+
+on: { workflow_dispatch: {} }
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up micromamba env
+        uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-name: airgeo
+          create-args: >-
+            -c conda-forge
+            python=3.11 geopandas fiona shapely pyproj rtree pandas
+
+      - name: Smoke check
+        shell: bash -l {0}
+        run: |
+          python scripts/smoke_check.py | tee smoke.txt
+
+      - name: Fix coordinates to match trusted Country/Region
+        shell: bash -l {0}
+        run: |
+          python src/fix_coordinates_to_label.py
+
+      - name: Finalize canonical CSV
+        shell: bash -l {0}
+        run: |
+          mkdir -p data/processed
+          cp data/processed/cleaned_aircrashes_geo_FINAL.csv data/processed/cleaned_aircrashes_geo_FINAL.csv
+
+      - name: Append smoke output to QA report
+        shell: bash -l {0}
+        run: |
+          mkdir -p reports
+          echo -e "\n\n## Smoke Check\n" >> reports/geo_validation_summary.md
+          cat smoke.txt >> reports/geo_validation_summary.md
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: geo-results
+          path: |
+            data/processed/cleaned_aircrashes_geo_FINAL.csv
+            reports/geo_validation_summary.md
+          if-no-files-found: warn
