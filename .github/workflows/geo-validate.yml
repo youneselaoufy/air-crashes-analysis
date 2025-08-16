@@ -1,12 +1,15 @@
 name: Geo Validation (fix coords to trusted label)
 
-on: { workflow_dispatch: {} }
+on:
+  workflow_dispatch: {}
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          lfs: true   # in case your shapefiles/CSVs use Git LFS
 
       - name: Set up micromamba env
         uses: mamba-org/setup-micromamba@v2
@@ -26,11 +29,11 @@ jobs:
         run: |
           python src/fix_coordinates_to_label.py
 
-      - name: Finalize canonical CSV
+      - name: Verify canonical CSV exists
         shell: bash -l {0}
         run: |
-          mkdir -p data/processed
-          cp data/processed/cleaned_aircrashes_geo_FINAL.csv data/processed/cleaned_aircrashes_geo_FINAL.csv
+          test -s data/processed/cleaned_aircrashes_geo_FINAL.csv
+          ls -lah data/processed/cleaned_aircrashes_geo_FINAL.csv
 
       - name: Append smoke output to QA report
         shell: bash -l {0}
