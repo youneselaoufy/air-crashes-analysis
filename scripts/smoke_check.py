@@ -1,8 +1,8 @@
 import os, pandas as pd, geopandas as gpd
 
 print("== Import OK ==")
+csv = "data/processed/cleaned_aircrashes_with_geo.csv"
 
-csv = "data/processed/corrected_aircrashes_geo_step1.csv"
 assert os.path.exists(csv), f"Missing {csv}"
 df = pd.read_csv(csv, low_memory=False)
 for c in ["Latitude","Longitude"]:

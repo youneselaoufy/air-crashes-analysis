@@ -1,6 +1,7 @@
 import pandas as pd, geopandas as gpd
 
-INPUT = "data/processed/corrected_aircrashes_geo_step1.csv"
+INPUT = "data/processed/cleaned_aircrashes_with_geo.csv"
+
 FINAL = "data/processed/cleaned_aircrashes_geo_FINAL.csv"
 SHAPE = "ne_50m_admin_0_countries/ne_50m_admin_0_countries.shp"
 
