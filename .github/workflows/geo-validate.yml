@@ -3,13 +3,19 @@ name: Geo Validation (fix coords to trusted label)
 on:
   workflow_dispatch: {}
 
+# Allow this workflow to push commits
+permissions:
+  contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          lfs: true   # in case your shapefiles/CSVs use Git LFS
+          lfs: true                  # fetch LFS files if you use them
+          fetch-depth: 0             # we need history to push back
+          persist-credentials: true  # use GITHUB_TOKEN for push
 
       - name: Set up micromamba env
         uses: mamba-org/setup-micromamba@v2
@@ -41,7 +47,8 @@ jobs:
           mkdir -p reports
           echo -e "\n\n## Smoke Check\n" >> reports/geo_validation_summary.md
           cat smoke.txt >> reports/geo_validation_summary.md
-          
+
+      # --- This step was failing; now fixed ---
       - name: Commit results back to branch
         shell: bash -l {0}
         run: |
@@ -49,9 +56,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
           git checkout "$BRANCH"
-          git add data/processed/cleaned_aircrashes_geo_FINAL.csv reports/geo_validation_summary.md
+          # If your .gitignore ignores data/processed/, force-add the allowed files
+          git add -f data/processed/cleaned_aircrashes_geo_FINAL.csv reports/geo_validation_summary.md
           git commit -m "Update final cleaned CSV and QA report (coords fixed to labels)" || echo "No changes to commit"
-          git push
+          git push origin "$BRANCH"
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
