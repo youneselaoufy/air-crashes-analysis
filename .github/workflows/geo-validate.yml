@@ -41,6 +41,17 @@ jobs:
           mkdir -p reports
           echo -e "\n\n## Smoke Check\n" >> reports/geo_validation_summary.md
           cat smoke.txt >> reports/geo_validation_summary.md
+          
+      - name: Commit results back to branch
+        shell: bash -l {0}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+          git checkout "$BRANCH"
+          git add data/processed/cleaned_aircrashes_geo_FINAL.csv reports/geo_validation_summary.md
+          git commit -m "Update final cleaned CSV and QA report (coords fixed to labels)" || echo "No changes to commit"
+          git push
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
