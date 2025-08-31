@@ -114,7 +114,7 @@ app.layout = html.Div([
 )
 def update_map(year_range, selected_operators, fatalities_range):
     # Load data
-    df = pd.read_csv("../data/processed/cleaned_aircrashes_with_geo.csv")
+    df = pd.read_csv("../data/processed/cleaned_aircrashes_geo_FINAL.csv")
 
     # Map month names to numeric values
     month_map = {
@@ -178,7 +178,7 @@ def update_map(year_range, selected_operators, fatalities_range):
     Input("fatalities-slider", "value")
 )
 def update_kpis(year_range, selected_operators, fatalities_range):
-    df = pd.read_csv("../data/processed/cleaned_aircrashes_with_geo.csv")
+    df = pd.read_csv("../data/processed/cleaned_aircrashes_geo_FINAL.csv")
 
     # Month mapping
     month_map = {
@@ -237,7 +237,7 @@ def update_kpis(year_range, selected_operators, fatalities_range):
     Input("fatalities-slider", "value")
 )
 def update_trend_line(year_range, selected_operators, fatalities_range):
-    df = pd.read_csv("../data/processed/cleaned_aircrashes_with_geo.csv")
+    df = pd.read_csv("../data/processed/cleaned_aircrashes_geo_FINAL.csv")
 
     # Month name → number
     month_map = {
@@ -284,7 +284,7 @@ def update_trend_line(year_range, selected_operators, fatalities_range):
     Input("fatalities-slider", "value")
 )
 def update_choropleth(year_range, selected_operators, fatalities_range):
-    df = pd.read_csv("../data/processed/cleaned_aircrashes_with_geo.csv")
+    df = pd.read_csv("../data/processed/cleaned_aircrashes_geo_FINAL.csv")
 
     # Month mapping
     month_map = {
@@ -340,7 +340,7 @@ def update_choropleth(year_range, selected_operators, fatalities_range):
     Input("fatalities-slider", "value")
 )
 def update_table(year_range, selected_operators, fatalities_range):
-    df = pd.read_csv("../data/processed/cleaned_aircrashes_with_geo.csv")
+    df = pd.read_csv("../data/processed/cleaned_aircrashes_geo_FINAL.csv")
 
     month_map = {
         'January': 1, 'February': 2, 'March': 3, 'April': 4,
